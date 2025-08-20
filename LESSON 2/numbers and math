@@ -1,1 +1,51 @@
+base = float(input("enter a base: "))
+exponent = float(input("enter an exponent: "))
+result = base ** exponent
+
+print(f"{base} to the power of {exponent} = {result}")
+
+-
+
+# WITH THE HELP OF AI #
+num = float(input("Enter a number: "))
+rounded_num = round(num,2)
+print(f"The number rounded to two decimal places is {rounded_num}")
+
+-
+
+num = float(input("Enter a number: "))
+absolute_num = abs(num)
+print(f"The absolute value of {num} is {absolute_num}")
+
+
+-
+
+num1 = float(input("Enter a number: "))
+num2 = float(input("Enter a number: "))
+
+difference = num1 - num2
+
+if difference.is_integer():
+    print(f"The difference between {num1} and {num2} is an integer? True!")
+else:
+    print(f"The difference between {num1} and {num2} is an integer? False!")
+
+-
+
+
+result = 3 ** 0.125
+print(f"{result:.3f}")
+
+-
+
+amount = 150000
+print(f"${amount:,.2f}")
+
+-
+
+percentage = 2/10
+print(f"${percentage:.1%}")
+
+
+
 
