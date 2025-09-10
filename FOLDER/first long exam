@@ -1,0 +1,22 @@
+#FAILED TO ANSWER ITEM 3&5#
+
+
+1. 
+name=input("Enter your name: ")
+print("Hello", name)
+
+2.
+n= int(input("Enter a positive integer: "))
+s = int (n+1) // 2
+print("Sum form 1 to",n ,"is",s)
+
+4.
+def is_palindrome(text: str) -> bool:
+    cleaned = ''.join(char.lower() for char in text if char.isalnum())
+    return cleaned == cleaned[::-1]
+
+word = input("Enter a word: ")
+if is_palindrome(word):
+    print("Yeah, it's a Palindrome")
+else:
+    print("Not a palindrome")
