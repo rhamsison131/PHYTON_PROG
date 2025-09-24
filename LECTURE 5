@@ -1,0 +1,123 @@
+cardinal_numbers= "first","second","third"
+print(cardinal_numbers)
+
+cardinal_numbers= "first","second","third"
+cardinal_numbers[1]
+
+cardinal_numbers= "first","second","third"
+cardinal_numbers[1]
+for cardinal_numbers in cardinal_numbers:
+    print(cardinal_numbers)
+
+MY_NAME = "Rham"
+print(MY_NAME)
+
+
+MY_NAME = "Rham"
+print(MY_NAME)
+"x" in MY_NAME
+
+
+my_name = "Rham"   
+new_tuple = my_name[1:]
+print(new_tuple)
+
+
+food="rice,beans"
+print(food)
+
+
+food=["rice","beans"]
+food.append("broccoli")
+print(food)
+
+
+
+food=["rice","beans"]
+food.append("broccoli")
+food.extend(["bread","pizza"])
+print(food)
+
+
+food=["rice","beans"]
+food.append("broccoli")
+food.extend(["bread","pizza"])
+new_tuple=food[0:2]
+print(new_tuple)
+
+
+food=["rice","beans"]
+food.append("broccoli")
+food.extend(["bread","pizza"])
+food[4]
+
+
+breakfast = "EGGS, FRUIT, ORANGE JUICE"
+string = breakfast.split(", ")
+print(string)
+
+
+breakfast = ("EGGS, FRUIT, ORANGE JUICE")
+string = breakfast.split(", ")
+len(string)
+
+
+
+breakfast = ("EGGS, FRUIT, ORANGE JUICE")
+lengths = [len(item) for item in breakfast]
+print(lengts)
+
+
+
+my_tuple = ((1, 2), (3, 4))
+print(my_tuple)
+
+
+data = ((1, 2), (3, 4))
+
+for t in data:
+    print(sum(t))
+
+
+
+numbers = [1, 2, 3, 4, 5]
+
+numbers_copy = numbers[:]
+
+print(numbers_copy)
+
+
+numbers = [5, 2, 9, 1, 7]
+
+numbers.sort()
+
+print(numbers)
+
+
+
+universities = [
+    ['California Institute of Technology',2175,37704],
+    ['Harvard',19627,39849],
+    ['Massachusets Institute of Technology',10566,40732],
+    ['Princeton',7802,37000],
+    ['Rice',5979,40569],
+    ['Stanford',19535,40569],
+    ['Yale',11701,40500]
+]
+
+print(universities)
+
+
+captains = {}
+captains['enterprise'] = 'picard'
+captains['voyager'] = 'janeway'
+captains['defiant'] = 'sisko'
+if 'enterprise' not in captains:
+    captains['enterprise'] = 'unknown'
+
+if 'discovery' not in captains:
+    captains['discovery'] = 'unknown'
+for ship, captain in captains.items():
+    print(f"{ship} is captained by {captain}")
+del captains['discovery']
+captains = dict(enterprise='picard', voyager='janeway', defiant='sisko')
