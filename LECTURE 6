@@ -1,0 +1,167 @@
+REVIEW EXERCISES
+#1
+class Dog:
+    species = "Canis familiaris"  
+
+    def __init__(self, name, age, coat_color):
+        self.name = name
+        self.age = age
+        self.coat_color = coat_color
+
+    def __str__(self):
+        return f"{self.name} is {self.age} years old"
+
+    def speak(self, sound):
+        return f"{self.name} says {sound}"
+
+
+
+philo = Dog("Philo", 5, "brown")
+print(f"{philo.name}'s coat is {philo.coat_color}.")
+
+#2
+class Car:
+    def __init__(self, color, mileage):
+        self.color = color
+        self.mileage = mileage
+
+blue_car = Car("blue", 20000)
+red_car = Car("red", 30000)
+
+print(f"The {blue_car.color} car has {blue_car.mileage:,} miles.")
+print(f"The {red_car.color} car has {red_car.mileage:,} miles.")
+
+#3
+class Car:
+    def __init__(self, color, mileage):
+        self.color = color
+        self.mileage = mileage
+
+    def drive(self, miles):
+        self.mileage += miles
+
+
+my_car = Car("black", 0) 
+print(f"Initial mileage: {my_car.mileage}")  
+
+my_car.drive(100)        
+print(f"Updated mileage: {my_car.mileage}")  
+
+REVIEW EXERCISES PAGE 20
+
+#1
+class Dog:
+    species = "Canis familiaris" 
+
+    def __init__(self, name, age): 
+        self.name = name
+        self.age = age
+
+    def __str__(self):  
+        return f"{self.name} is {self.age} years old"
+
+    def speak(self, sound):  
+        return f"{self.name} says {sound}"
+
+
+class GoldenRetriever(Dog):
+    def speak(self, sound="BARK"):  
+        return super().speak(sound)
+
+
+
+dog1 = GoldenRetriever("Buddy", 3)
+
+print(dog1)             
+print(dog1.species)      
+print(dog1.speak())     
+print(dog1.speak("Woof"))  
+
+#2
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+
+    def area(self):
+        return self.length * self.width
+
+
+class Square(Rectangle):
+    def __init__(self, side_length):
+        super().__init__(side_length, side_length) 
+
+
+# --- Test code ---
+sq = Square(4)
+print(sq.area()) 
+
+CHALLENGE: MODEL A FARM
+
+# Parent Class
+class Animal:
+    def __init__(self, name, age, species):
+        self.name = name
+        self.age = age
+        self.species = species
+
+    def __str__(self):
+        return f"{self.name} is a {self.age}-year-old {self.species}"
+
+    def eat(self):
+        return f"{self.name} is eating."
+
+    def sleep(self):
+        return f"{self.name} is sleeping."
+
+
+# Child Class 1: Dog
+class Dog(Animal):
+    def __init__(self, name, age, breed):
+        super().__init__(name, age, "Dog")
+        self.breed = breed
+
+    def speak(self):
+        return f"{self.name} says: Woof!"
+
+
+# Child Class 2: Cat
+class Cat(Animal):
+    def __init__(self, name, age, color):
+        super().__init__(name, age, "Cat")
+        self.color = color
+
+    def speak(self):
+        return f"{self.name} says: Meow!"
+
+
+# Child Class 3: Bird
+class Bird(Animal):
+    def __init__(self, name, age, can_fly=True):
+        super().__init__(name, age, "Bird")
+        self.can_fly = can_fly
+
+    def speak(self):
+        return f"{self.name} says: Chirp!"
+
+    def fly(self):
+        return f"{self.name} is flying!" if self.can_fly else f"{self.name} cannot fly."
+
+
+dog1 = Dog("Buddy", 3, "Golden Retriever")
+cat1 = Cat("Whiskers", 2, "Black")
+bird1 = Bird("Tweety", 1, True)
+
+print(dog1)              
+print(dog1.speak())      
+print(dog1.eat())        
+print(dog1.sleep())      
+
+print(cat1)              
+print(cat1.speak())      
+print(cat1.eat())        
+print(cat1.sleep())      
+
+print(bird1)             
+print(bird1.speak())     
+print(bird1.fly())       
+print(bird1.eat())       
