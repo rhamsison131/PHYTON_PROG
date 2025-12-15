@@ -1,0 +1,4371 @@
+[
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/4c6dc9f75848c01b386e4356ef4f8019",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/4c6dc9f75848c01b386e4356ef4f8019",
+        "smiles": "C(C)(=O)OC\\C=C(/C)\\CC\\C=C(/C)\\CCC=C(C)C>ClCCl.C(C)(C)(C)OO.[Se](=O)=O.[O-]S(=O)(=S)[O-].[Na+].[Na+]>C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\C=O)/C)/C)/C",
+        "reaction_conditions": {
+            "time": "900",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "25",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "-1",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "(2E,6E)-Farnesyl Acetate",
+                "smiles": "C(C)(=O)OC\\C=C(/C)\\CC\\C=C(/C)\\CCC=C(C)C",
+                "inchiKey": "ZGIGZINMAOQWLX-NCZFFCEISA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "(2E,6E)-Farnesyl Acetate",
+        "solvent_details": [
+            {
+                "name": "dichloromethane",
+                "smiles": "ClCCl",
+                "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+                "ratio": "31.1",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "dichloromethane",
+        "oxidizing_agent_details": [
+            {
+                "name": "tert-butyl hydroperoxide",
+                "smiles": "C(C)(C)(C)OO",
+                "inchiKey": "CIHOLLKRGTVIJN-UHFFFAOYSA-N",
+                "ratio": "3.0",
+                "role": "oxidizing agent",
+                "notes": null
+            }
+        ],
+        "oxidizing agent": "tert-butyl hydroperoxide",
+        "reagent_details": [
+            {
+                "name": "selenium dioxide",
+                "smiles": "[Se](=O)=O",
+                "inchiKey": "JPJALAQPGMAKDF-UHFFFAOYSA-N",
+                "ratio": "0.3",
+                "role": "reagent",
+                "notes": null
+            }
+        ],
+        "reagent": "selenium dioxide",
+        "quench_details": [
+            {
+                "name": "sodium thiosulfate",
+                "smiles": "[O-]S(=O)(=S)[O-].[Na+].[Na+]",
+                "inchiKey": "AKHNMLFCWUSKQB-UHFFFAOYSA-L",
+                "ratio": "6.4",
+                "role": "quench",
+                "notes": null,
+                "solvent": "sodium thiosulfate",
+                "concentration": "0",
+                "concentrationUnits": "mL"
+            }
+        ],
+        "quench": "sodium thiosulfate",
+        "product_details": [
+            {
+                "name": "(2E,6E,10E)-12-oxo-3,7,11-trimethyldodeca-2,6,10-trien-1-yl acetate",
+                "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\C=O)/C)/C)/C",
+                "inchiKey": "LRIUGFZTYQJCLE-JDDBBKIWSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "(2E,6E,10E)-12-oxo-3,7,11-trimethyldodeca-2,6,10-trien-1-yl acetate"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/bdd4a1e5f509dbac291ee6f77bf3a955",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/bdd4a1e5f509dbac291ee6f77bf3a955",
+        "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\C=O)/C)/C)/C>CO[H].[Na+].[BH4-]>C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\CO)/C)/C)/C",
+        "reaction_conditions": {
+            "time": "30",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "0",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "51.96",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "(2E,6E,10E)-12-oxo-3,7,11-trimethyldodeca-2,6,10-trien-1-yl acetate",
+                "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\C=O)/C)/C)/C",
+                "inchiKey": "LRIUGFZTYQJCLE-JDDBBKIWSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "(2E,6E,10E)-12-oxo-3,7,11-trimethyldodeca-2,6,10-trien-1-yl acetate",
+        "solvent_details": [
+            {
+                "name": "methanol",
+                "smiles": "CO[H]",
+                "inchiKey": "OKKJLVBELUTLKV-UHFFFAOYSA-N",
+                "ratio": "49.0",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "methanol",
+        "reducing_agent_details": [
+            {
+                "name": "sodium borohydride",
+                "smiles": "[Na+].[BH4-]",
+                "inchiKey": "YOQDYZUWIQVZSF-UHFFFAOYSA-N",
+                "ratio": "1.0",
+                "role": "reducing agent",
+                "notes": null
+            }
+        ],
+        "reducing agent": "sodium borohydride",
+        "product_details": [
+            {
+                "name": "(2E,6E,10E)-12-Hydroxy-3,7,11-trimethyldodeca-2,6,10-trien-1-yl acetate",
+                "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\CO)/C)/C)/C",
+                "inchiKey": "PMMLYUKFEGLCHF-JDDBBKIWSA-N",
+                "ratio": "0.5",
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "(2E,6E,10E)-12-Hydroxy-3,7,11-trimethyldodeca-2,6,10-trien-1-yl acetate"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/d6af14307ac9a657751becf37f7c7569",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/d6af14307ac9a657751becf37f7c7569",
+        "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\CO)/C)/C)/C>ClCCl.ClC=1C=C(C(=O)OO)C=CC1.C(O)([O-])=O.[Na+]>C(C)(=O)OC\\C=C(\\CC\\C=C(\\CCC1OC1(C)CO)/C)/C",
+        "reaction_conditions": {
+            "time": "90",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "-50",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "71",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "(2E,6E,10E)-12-Hydroxy-3,7,11-trimethyldodeca-2,6,10-trien-1-yl acetate",
+                "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\CO)/C)/C)/C",
+                "inchiKey": "PMMLYUKFEGLCHF-JDDBBKIWSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "(2E,6E,10E)-12-Hydroxy-3,7,11-trimethyldodeca-2,6,10-trien-1-yl acetate",
+        "solvent_details": [
+            {
+                "name": "dichloromethane",
+                "smiles": "ClCCl",
+                "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+                "ratio": "264",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "dichloromethane",
+        "oxidizing_agent_details": [
+            {
+                "name": "meta-chloroperoxybenzoic acid",
+                "smiles": "ClC=1C=C(C(=O)OO)C=CC1",
+                "inchiKey": "NHQDETIJWKXCTC-UHFFFAOYSA-N",
+                "ratio": "1.0",
+                "role": "oxidizing agent",
+                "notes": null
+            }
+        ],
+        "oxidizing agent": "meta-chloroperoxybenzoic acid",
+        "quench_details": [
+            {
+                "name": "sodium hydrogen carbonate",
+                "smiles": "C(O)([O-])=O.[Na+]",
+                "inchiKey": "UIIMBOGNXHQVGW-UHFFFAOYSA-M",
+                "ratio": "727",
+                "role": "quench",
+                "notes": null,
+                "solvent": "sodium hydrogen carbonate",
+                "concentration": "0",
+                "concentrationUnits": "mL"
+            }
+        ],
+        "quench": "sodium hydrogen carbonate",
+        "product_details": [
+            {
+                "name": "(2E,6E)-9-(3-(Hydroxymethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate",
+                "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CCC1OC1(C)CO)/C)/C",
+                "inchiKey": "YJNFRKKGRSTGPV-BIVKKUJPSA-N",
+                "ratio": "0.7",
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "(2E,6E)-9-(3-(Hydroxymethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/7492b8e3c3f2b9f21ea192d6b1df603c",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/7492b8e3c3f2b9f21ea192d6b1df603c",
+        "smiles": "C(C1=CC=CC=C1)(=O)Cl.C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@@]1(C)CO)/C)/C>C1(=CC=NC=C1)N(C)C.ClCCl.CCN(CC)CC>C(C1=CC=CC=C1)(=O)OC[C@@]1(O[C@H]1CC\\C(=C\\CC\\C(=C\\COC(C)=O)\\C)\\C)C",
+        "reaction_conditions": {
+            "time": "120",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "0",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "94.73",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "(2E,6E)-9-((2S,3S)-3-(Hydroxymethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate",
+                "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@@]1(C)CO)/C)/C",
+                "inchiKey": "YJNFRKKGRSTGPV-MMROGUSUSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "(2E,6E)-9-((2S,3S)-3-(Hydroxymethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate",
+        "catalyst_details": [
+            {
+                "name": "4-dimethylaminopyridine",
+                "smiles": "C1(=CC=NC=C1)N(C)C",
+                "inchiKey": "VHYFNPMBLIVWCW-UHFFFAOYSA-N",
+                "ratio": "0.2",
+                "role": "catalyst",
+                "notes": null
+            }
+        ],
+        "catalyst": "4-dimethylaminopyridine",
+        "solvent_details": [
+            {
+                "name": "dichloromethane",
+                "smiles": "ClCCl",
+                "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+                "ratio": "184",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "dichloromethane",
+        "base_details": [
+            {
+                "name": "triethylamine",
+                "smiles": "CCN(CC)CC",
+                "inchiKey": "ZMANZCXQSJIPKH-UHFFFAOYSA-N",
+                "ratio": "1.5",
+                "role": "base",
+                "notes": null
+            }
+        ],
+        "base": "triethylamine",
+        "building_block_details": [
+            {
+                "name": "benzoyl chloride",
+                "smiles": "C(C1=CC=CC=C1)(=O)Cl",
+                "inchiKey": "PASDCCFISLVPSO-UHFFFAOYSA-N",
+                "ratio": "1.2",
+                "role": "building block",
+                "notes": null
+            }
+        ],
+        "building block": "benzoyl chloride",
+        "product_details": [
+            {
+                "name": "((2S,3S)-3-((3E,7E)-9-Acetoxy-3,7-dimethylnona-3,7-dien-1-yl)-2-methyloxiran-2-yl)methyl benzoate",
+                "smiles": "C(C1=CC=CC=C1)(=O)OC[C@@]1(O[C@H]1CC\\C(=C\\CC\\C(=C\\COC(C)=O)\\C)\\C)C",
+                "inchiKey": "UERRZRQZRJVKGA-WIRDBIQLSA-N",
+                "ratio": "0.9",
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "((2S,3S)-3-((3E,7E)-9-Acetoxy-3,7-dimethylnona-3,7-dien-1-yl)-2-methyloxiran-2-yl)methyl benzoate"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/c771722dd1fb3f306669bd9d15601987",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/c771722dd1fb3f306669bd9d15601987",
+        "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@@]1(C)CO)/C)/C>ClCCl.C(C)(=O)OI1(OC(C2=C1C=CC=C2)=O)(OC(C)=O)OC(C)=O>C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@]1(C)C=O)/C)/C",
+        "reaction_conditions": {
+            "time": "120",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "25",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "-1",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "(2E,6E)-9-((2S,3S)-3-(Hydroxymethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate",
+                "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@@]1(C)CO)/C)/C",
+                "inchiKey": "YJNFRKKGRSTGPV-MMROGUSUSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "(2E,6E)-9-((2S,3S)-3-(Hydroxymethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate",
+        "solvent_details": [
+            {
+                "name": "dichloromethane",
+                "smiles": "ClCCl",
+                "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+                "ratio": "47.3",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "dichloromethane",
+        "oxidizing_agent_details": [
+            {
+                "name": "3-Oxo-1,3-dihydro-1λ5,2-benziodoxole-1,1,1-triyl triacetate",
+                "smiles": "C(C)(=O)OI1(OC(C2=C1C=CC=C2)=O)(OC(C)=O)OC(C)=O",
+                "inchiKey": "NKLCNNUWBJBICK-UHFFFAOYSA-N",
+                "ratio": "1.2",
+                "role": "oxidizing agent",
+                "notes": null
+            }
+        ],
+        "oxidizing agent": "3-Oxo-1,3-dihydro-1λ5,2-benziodoxole-1,1,1-triyl triacetate",
+        "product_details": [
+            {
+                "name": "(2E,6E)-9-((2S,3S)-3-(oxomethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate",
+                "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@]1(C)C=O)/C)/C",
+                "inchiKey": "ANMPEHXKLPXPFY-CCRXHZNCSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "(2E,6E)-9-((2S,3S)-3-(oxomethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/cc23e4631d50c7edc0c349109253f70a",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/cc23e4631d50c7edc0c349109253f70a",
+        "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@]1(C)C=O)/C)/C>O.C1CCCO1.CC(C)(C)O.Cl(=O)[O-].[Na+].CC(C)=CC>C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@]1(C)C(=O)O)/C)/C",
+        "reaction_conditions": {
+            "time": "60",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "25",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "-1",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "(2E,6E)-9-((2S,3S)-3-(oxomethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate",
+                "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@]1(C)C=O)/C)/C",
+                "inchiKey": "ANMPEHXKLPXPFY-CCRXHZNCSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "(2E,6E)-9-((2S,3S)-3-(oxomethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate",
+        "solvent_details": [
+            {
+                "name": "water",
+                "smiles": "O",
+                "inchiKey": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+                "ratio": "167",
+                "role": "solvent",
+                "notes": null
+            },
+            {
+                "name": "tetrahydrofuran",
+                "smiles": "C1CCCO1",
+                "inchiKey": "WYURNTSHIVDZCO-UHFFFAOYSA-N",
+                "ratio": "37.2",
+                "role": "solvent",
+                "notes": null
+            },
+            {
+                "name": "tert-Butyl alcohol",
+                "smiles": "CC(C)(C)O",
+                "inchiKey": "DKGAVHZHDRPRBM-UHFFFAOYSA-N",
+                "ratio": "2.9",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "water",
+        "oxidizing_agent_details": [
+            {
+                "name": "sodium chlorite",
+                "smiles": "Cl(=O)[O-].[Na+]",
+                "inchiKey": "UKLNMMHNWFDKNT-UHFFFAOYSA-M",
+                "ratio": "2.0",
+                "role": "oxidizing agent",
+                "notes": null
+            }
+        ],
+        "oxidizing agent": "sodium chlorite",
+        "reagent_details": [
+            {
+                "name": "2-methylbut-2-ene",
+                "smiles": "CC(C)=CC",
+                "inchiKey": "BKOOMYPCSUNDGP-UHFFFAOYSA-N",
+                "ratio": "10.0",
+                "role": "reagent",
+                "notes": null
+            }
+        ],
+        "reagent": "2-methylbut-2-ene",
+        "buffer_details": [
+            {
+                "name": "monopotassium phosphate",
+                "smiles": "P(=O)(O)(O)[O-].[K+]",
+                "inchiKey": "GNSKLFRGEWLPPA-UHFFFAOYSA-M",
+                "ratio": "5.0",
+                "role": "buffer",
+                "notes": null
+            }
+        ],
+        "buffer": "monopotassium phosphate",
+        "product_details": [
+            {
+                "name": "(2E,6E)-9-((2S,3S)-3-(hydroxyoxomethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate",
+                "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@]1(C)C(=O)O)/C)/C",
+                "inchiKey": "GVLPODHFXXBSOA-FCVVIDAPSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "(2E,6E)-9-((2S,3S)-3-(hydroxyoxomethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/d2a7624757841db6e86256f09356c828",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/d2a7624757841db6e86256f09356c828",
+        "smiles": "S(=O)(=O)(OC)OC.C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@]1(C)C(=O)O)/C)/C>C([O-])([O-])=O.[K+].[K+].CC(=O)C>C(C)(=O)OC/C=C(/CC/C=C(/CC[C@H]1[C@@](O1)(C(=O)OC)C)\\C)\\C",
+        "reaction_conditions": {
+            "time": "",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "25",
+            "reflux": "1"
+        },
+        "yield": {
+            "amount": "76.98",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "c1_synthon_details": [
+            {
+                "name": "dimethyl sulfate",
+                "smiles": "S(=O)(=O)(OC)OC",
+                "inchiKey": "VAYGXNSJCAHWJZ-UHFFFAOYSA-N",
+                "ratio": "0.9",
+                "role": "c1 synthon",
+                "notes": null
+            }
+        ],
+        "c1 synthon": "dimethyl sulfate",
+        "reactant_details": [
+            {
+                "name": "(2E,6E)-9-((2S,3S)-3-(hydroxyoxomethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate",
+                "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@]1(C)C(=O)O)/C)/C",
+                "inchiKey": "GVLPODHFXXBSOA-FCVVIDAPSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "(2E,6E)-9-((2S,3S)-3-(hydroxyoxomethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate",
+        "base_details": [
+            {
+                "name": "potassium carbonate",
+                "smiles": "C([O-])([O-])=O.[K+].[K+]",
+                "inchiKey": "BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+                "ratio": "1.6",
+                "role": "base",
+                "notes": null
+            }
+        ],
+        "base": "potassium carbonate",
+        "solvent_details": [
+            {
+                "name": "acetone",
+                "smiles": "CC(=O)C",
+                "inchiKey": "CSCPPACGZOOCGX-UHFFFAOYSA-N",
+                "ratio": "41.1",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "acetone",
+        "product_details": [
+            {
+                "name": "methyl (2R,3S)-3-((3E,7E)-9-acetoxy-3,7-dimethylnona-3,7-dien-1-yl)-2-methyloxirane-2-carboxylate",
+                "smiles": "C(C)(=O)OC/C=C(/CC/C=C(/CC[C@H]1[C@@](O1)(C(=O)OC)C)\\C)\\C",
+                "inchiKey": "LEQLYZIXGNVRHQ-SUGNSRIKSA-N",
+                "ratio": "0.8",
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "methyl (2R,3S)-3-((3E,7E)-9-acetoxy-3,7-dimethylnona-3,7-dien-1-yl)-2-methyloxirane-2-carboxylate"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/41a703446cf2b050807560d37510b81f",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/41a703446cf2b050807560d37510b81f",
+        "smiles": "C[Si](C)(C)Cl.C(C)(=O)OC/C=C(/CC/C=C(/CC[C@H]1[C@@](O1)(C(=O)OC)C)\\C)\\C>C1CCCO1.Cl.N1=C(C=C(C=C1C)C)C.[cH-]1cccc1.[cH-]1cccc1.Cl[Ti+2]Cl.[Mn]>C(C)(=O)OC[C@@H]1[C@]2(CC[C@@H]([C@]([C@@H]2CCC1=C)(C(=O)OC)C)O)C",
+        "reaction_conditions": {
+            "time": "525",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "25",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "58",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "methyl (2R,3S)-3-((3E,7E)-9-acetoxy-3,7-dimethylnona-3,7-dien-1-yl)-2-methyloxirane-2-carboxylate",
+                "smiles": "C(C)(=O)OC/C=C(/CC/C=C(/CC[C@H]1[C@@](O1)(C(=O)OC)C)\\C)\\C",
+                "inchiKey": "LEQLYZIXGNVRHQ-SUGNSRIKSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "methyl (2R,3S)-3-((3E,7E)-9-acetoxy-3,7-dimethylnona-3,7-dien-1-yl)-2-methyloxirane-2-carboxylate",
+        "solvent_details": [
+            {
+                "name": "tetrahydrofuran",
+                "smiles": "C1CCCO1",
+                "inchiKey": "WYURNTSHIVDZCO-UHFFFAOYSA-N",
+                "ratio": "69.7",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "tetrahydrofuran",
+        "quench_details": [
+            {
+                "name": "hydrogen chloride",
+                "smiles": "Cl",
+                "inchiKey": "VEXZGXHMUGYJMC-UHFFFAOYSA-N",
+                "ratio": "124",
+                "role": "quench",
+                "notes": null
+            }
+        ],
+        "quench": "hydrogen chloride",
+        "protective_group_reagent_details": [
+            {
+                "name": "Trimethylsilyl chloride",
+                "smiles": "C[Si](C)(C)Cl",
+                "inchiKey": "IJOOHPMOJXWVHK-UHFFFAOYSA-N",
+                "ratio": "4.0",
+                "role": "protective group reagent",
+                "notes": null
+            }
+        ],
+        "protective group reagent": "Trimethylsilyl chloride",
+        "non-nucleophilic_base_details": [
+            {
+                "name": "2,4,6-Trimethylpyridine",
+                "smiles": "N1=C(C=C(C=C1C)C)C",
+                "inchiKey": "BWZVCCNYKMEVEX-UHFFFAOYSA-N",
+                "ratio": "7.0",
+                "role": "non-nucleophilic base",
+                "notes": null
+            }
+        ],
+        "non-nucleophilic base": "2,4,6-Trimethylpyridine",
+        "element_details": [
+            {
+                "name": "manganese",
+                "smiles": "[Mn]",
+                "inchiKey": "PWHULOQIROXLJO-UHFFFAOYSA-N",
+                "ratio": "8.0",
+                "role": "element",
+                "notes": null
+            }
+        ],
+        "element": "manganese",
+        "catalyst_details": [
+            {
+                "name": "bis(cyclopentadienyl)titanium chloride",
+                "smiles": "[Cl-].C1(C=CC=C1)[Ti+2]C1C=CC=C1.[Cl-]",
+                "inchiKey": "XKLWATAZDMHTSH-UHFFFAOYSA-L",
+                "ratio": "0.2",
+                "role": "catalyst",
+                "notes": null
+            }
+        ],
+        "catalyst": "bis(cyclopentadienyl)titanium chloride",
+        "product_details": [
+            {
+                "name": "methyl (1S,2S,4aS,5S,8aR)-5-(acetoxymethyl)-2-hydroxy-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+                "smiles": "C(C)(=O)OC[C@@H]1[C@]2(CC[C@@H]([C@]([C@@H]2CCC1=C)(C(=O)OC)C)O)C",
+                "inchiKey": "SEYMWPJVLBQZCV-FZMWSMFESA-N",
+                "ratio": "1.0",
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "methyl (1S,2S,4aS,5S,8aR)-5-(acetoxymethyl)-2-hydroxy-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/4f53d9bebe89fa37f05852cc4b386e87",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/4f53d9bebe89fa37f05852cc4b386e87",
+        "smiles": "C(C)(=O)OC[C@@H]2[C@]1(CC[C@@H]([C@]([C@@H]1CCC2=C)(C(=O)[O-])C)OC(=S)S[Na])C>C1(=CC=CC=C1)C.CC(C)(C#N)/N=N/C(C)(C)C#N.C(CCC)[SnH](CCCC)CCCC>C(C)(=O)OC[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+        "reaction_conditions": {
+            "time": "15",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "25",
+            "reflux": "1"
+        },
+        "yield": {
+            "amount": "73",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "WWARLXVILQHNCE-GDLXNQLUSA-L",
+                "smiles": "C(C)(=O)OC[C@@H]2[C@]1(CC[C@@H]([C@]([C@@H]1CCC2=C)(C(=O)[O-])C)OC(=S)S[Na])C",
+                "inchiKey": "WWARLXVILQHNCE-GDLXNQLUSA-L",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "WWARLXVILQHNCE-GDLXNQLUSA-L",
+        "solvent_details": [
+            {
+                "name": "toluene",
+                "smiles": "C1(=CC=CC=C1)C",
+                "inchiKey": "YXFVVABEGXRONW-UHFFFAOYSA-N",
+                "ratio": "77.9",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "toluene",
+        "radical_initiator_details": [
+            {
+                "name": "Azobisisobutyronitrile",
+                "smiles": "CC(C)(C#N)/N=N/C(C)(C)C#N",
+                "inchiKey": "OZAIFHULBGXAKX-UHFFFAOYSA-N",
+                "ratio": "0.3",
+                "role": "radical initiator",
+                "notes": null
+            }
+        ],
+        "radical initiator": "Azobisisobutyronitrile",
+        "reagent_details": [
+            {
+                "name": "tri-n-butyltin hydride",
+                "smiles": "C(CCC)[SnH](CCCC)CCCC",
+                "inchiKey": "DBGVGMSCBYYSLD-UHFFFAOYSA-N",
+                "ratio": "3.0",
+                "role": "reagent",
+                "notes": null
+            }
+        ],
+        "reagent": "tri-n-butyltin hydride",
+        "product_details": [
+            {
+                "name": "methyl (1R,4aS,5S,8aR)-5-(acetoxymethyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+                "smiles": "C(C)(=O)OC[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+                "inchiKey": "LSZRHLHPFWBRPH-BURFUSLBSA-N",
+                "ratio": "1.0",
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "methyl (1R,4aS,5S,8aR)-5-(acetoxymethyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/72f4e27f2e8a3b51ae9cd9a6493f381b",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/72f4e27f2e8a3b51ae9cd9a6493f381b",
+        "smiles": "C(C)(=O)OC[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C>C(Cl)(Cl)(Cl)[H].CO[H].C([O-])([O-])=O.[K+].[K+]>OC[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+        "reaction_conditions": {
+            "time": "180",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "25",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "96",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "methyl (1R,4aS,5S,8aR)-5-(acetoxymethyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+                "smiles": "C(C)(=O)OC[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+                "inchiKey": "LSZRHLHPFWBRPH-BURFUSLBSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "methyl (1R,4aS,5S,8aR)-5-(acetoxymethyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+        "solvent_details": [
+            {
+                "name": "chloroform",
+                "smiles": "C(Cl)(Cl)(Cl)[H]",
+                "inchiKey": "HEDRZPFGACZZDS-UHFFFAOYSA-N",
+                "ratio": "43.8",
+                "role": "solvent",
+                "notes": null
+            },
+            {
+                "name": "methanol",
+                "smiles": "CO[H]",
+                "inchiKey": "OKKJLVBELUTLKV-UHFFFAOYSA-N",
+                "ratio": "87.2",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "chloroform",
+        "base_details": [
+            {
+                "name": "potassium carbonate",
+                "smiles": "C([O-])([O-])=O.[K+].[K+]",
+                "inchiKey": "BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+                "ratio": "1.5",
+                "role": "base",
+                "notes": null
+            }
+        ],
+        "base": "potassium carbonate",
+        "product_details": [
+            {
+                "name": "methyl (1R,4aS,5S,8aR)-5-(hydroxymethyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+                "smiles": "OC[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+                "inchiKey": "KEZPZWCHOHXPOR-SJXGUFTOSA-N",
+                "ratio": "0.000963",
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "methyl (1R,4aS,5S,8aR)-5-(hydroxymethyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/09deb73e7229f9ea29e8697340dd9848",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/09deb73e7229f9ea29e8697340dd9848",
+        "smiles": "OC[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C>ClCCl.C(C)(=O)OI1(OC(C2=C1C=CC=C2)=O)(OC(C)=O)OC(C)=O.C(O)([O-])=O.[Na+]>O=C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+        "reaction_conditions": {
+            "time": "180",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "25",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "-1",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "methyl (1R,4aS,5S,8aR)-5-(hydroxymethyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+                "smiles": "OC[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+                "inchiKey": "KEZPZWCHOHXPOR-SJXGUFTOSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "methyl (1R,4aS,5S,8aR)-5-(hydroxymethyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+        "solvent_details": [
+            {
+                "name": "dichloromethane",
+                "smiles": "ClCCl",
+                "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+                "ratio": "23.4",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "dichloromethane",
+        "oxidizing_agent_details": [
+            {
+                "name": "3-Oxo-1,3-dihydro-1λ5,2-benziodoxole-1,1,1-triyl triacetate",
+                "smiles": "C(C)(=O)OI1(OC(C2=C1C=CC=C2)=O)(OC(C)=O)OC(C)=O",
+                "inchiKey": "NKLCNNUWBJBICK-UHFFFAOYSA-N",
+                "ratio": "2.2",
+                "role": "oxidizing agent",
+                "notes": null
+            }
+        ],
+        "oxidizing agent": "3-Oxo-1,3-dihydro-1λ5,2-benziodoxole-1,1,1-triyl triacetate",
+        "quench_details": [
+            {
+                "name": "sodium hydrogen carbonate",
+                "smiles": "C(O)([O-])=O.[Na+]",
+                "inchiKey": "UIIMBOGNXHQVGW-UHFFFAOYSA-M",
+                "ratio": null,
+                "role": "quench",
+                "notes": null,
+                "solvent": "sodium hydrogen carbonate",
+                "concentration": "0"
+            }
+        ],
+        "quench": "sodium hydrogen carbonate",
+        "product_details": [
+            {
+                "name": "methyl (1R,4aS,5S,8aR)-5-(oxomethyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+                "smiles": "O=C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+                "inchiKey": "UFGYGYPNRBIUGS-SJXGUFTOSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "methyl (1R,4aS,5S,8aR)-5-(oxomethyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/1766d1b54f4f9eebfc426ee76556c6de",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/1766d1b54f4f9eebfc426ee76556c6de",
+        "smiles": "[Cl-].COC[P+](C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1.O=C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C>C1CCCO1.Cl.C[Si](C)(C)[N-][Si](C)(C)C.[Li+]>C[C@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)CC=O)C)C(=O)OC",
+        "reaction_conditions": {
+            "time": "750",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "0",
+            "reflux": "1"
+        },
+        "yield": {
+            "amount": "71",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "(methoxymethyl)triphenylphosphonium chloride",
+                "smiles": "[Cl-].COC[P+](C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1",
+                "inchiKey": "SJFNDMHZXCUXSA-UHFFFAOYSA-M",
+                "ratio": "8.0",
+                "role": "reactant",
+                "notes": null
+            },
+            {
+                "name": "methyl (1R,4aS,5S,8aR)-5-(oxomethyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+                "smiles": "O=C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+                "inchiKey": "UFGYGYPNRBIUGS-SJXGUFTOSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "(methoxymethyl)triphenylphosphonium chloride",
+        "solvent_details": [
+            {
+                "name": "tetrahydrofuran",
+                "smiles": "C1CCCO1",
+                "inchiKey": "WYURNTSHIVDZCO-UHFFFAOYSA-N",
+                "ratio": "345",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "tetrahydrofuran",
+        "quench_details": [
+            {
+                "name": "hydrogen chloride",
+                "smiles": "Cl",
+                "inchiKey": "VEXZGXHMUGYJMC-UHFFFAOYSA-N",
+                "ratio": "32.0",
+                "role": "quench",
+                "notes": null
+            }
+        ],
+        "quench": "hydrogen chloride",
+        "non-nucleophilic_base_details": [
+            {
+                "name": "lithium bis(trimethylsilyl)amide",
+                "smiles": "C[Si](C)(C)[N-][Si](C)(C)C.[Li+]",
+                "inchiKey": "YNESATAKKCNGOF-UHFFFAOYSA-N",
+                "ratio": "8.0",
+                "role": "non-nucleophilic base",
+                "notes": null,
+                "solvent": "lithium bis(trimethylsilyl)amide",
+                "concentration": "1",
+                "concentrationUnits": "mmol"
+            }
+        ],
+        "non-nucleophilic base": "lithium bis(trimethylsilyl)amide",
+        "product_details": [
+            {
+                "name": "methyl (1R,4aR,5S,8aR)-1,4a-dimethyl-6-methylene-5-(2-oxoethyl)decahydronaphthalene-1-carboxylate",
+                "smiles": "C[C@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)CC=O)C)C(=O)OC",
+                "inchiKey": "WNBWIZVJMQGNLE-XOSAIJSUSA-N",
+                "ratio": "4.0",
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "methyl (1R,4aR,5S,8aR)-1,4a-dimethyl-6-methylene-5-(2-oxoethyl)decahydronaphthalene-1-carboxylate"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/9b54a2465c6ce18e76f8402e546841c0",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/9b54a2465c6ce18e76f8402e546841c0",
+        "smiles": "C1(=CC=CC=C1)P(=C(C=O)C)(C1=CC=CC=C1)C1=CC=CC=C1.C[C@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)CC=O)C)C(=O)OC>C1(=CC=CC=C1)C>C[C@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)C\\C=C(\\C=O)/C)C)C(=O)OC",
+        "reaction_conditions": {
+            "time": "2160",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "110",
+            "reflux": "1"
+        },
+        "yield": {
+            "amount": "92",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "2-(triphenylphosphoranylidene)propionaldehyde",
+                "smiles": "C1(=CC=CC=C1)P(=C(C=O)C)(C1=CC=CC=C1)C1=CC=CC=C1",
+                "inchiKey": "VHUQEFAWBCDBSC-UHFFFAOYSA-N",
+                "ratio": "3.0",
+                "role": "reactant",
+                "notes": null
+            },
+            {
+                "name": "methyl (1R,4aR,5S,8aR)-1,4a-dimethyl-6-methylene-5-(2-oxoethyl)decahydronaphthalene-1-carboxylate",
+                "smiles": "C[C@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)CC=O)C)C(=O)OC",
+                "inchiKey": "WNBWIZVJMQGNLE-XOSAIJSUSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "2-(triphenylphosphoranylidene)propionaldehyde",
+        "solvent_details": [
+            {
+                "name": "toluene",
+                "smiles": "C1(=CC=CC=C1)C",
+                "inchiKey": "YXFVVABEGXRONW-UHFFFAOYSA-N",
+                "ratio": "86.5",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "toluene",
+        "product_details": [
+            {
+                "name": "methyl (1R,4aR,5S,8aR)-1,4a-dimethyl-5-((E)-3-methyl-4-oxobut-2-en-1-yl)-6-methylenedecahydronaphthalene-1-carboxylate",
+                "smiles": "C[C@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)C\\C=C(\\C=O)/C)C)C(=O)OC",
+                "inchiKey": "MTXBOUHFHLZZDV-NEGMLWLESA-N",
+                "ratio": "1.0",
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "methyl (1R,4aR,5S,8aR)-1,4a-dimethyl-5-((E)-3-methyl-4-oxobut-2-en-1-yl)-6-methylenedecahydronaphthalene-1-carboxylate"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/ed75874bf5d2a30bce3d5f54ef5aa9ac",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/ed75874bf5d2a30bce3d5f54ef5aa9ac",
+        "smiles": "[Br-].C[P+](C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1.C[C@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)C\\C=C(\\C=O)/C)C)C(=O)OC>CC(C)(C)[O-].[K+].C1CCCO1.[Cl-].[NH4+]>COC(=O)[C@@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)C\\C=C(\\C=C)/C)C)C",
+        "reaction_conditions": {
+            "time": "240",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "0",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "75",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "c1_synthon_details": [
+            {
+                "name": "methyltriphenylphosphonium bromide",
+                "smiles": "[Br-].C[P+](C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1",
+                "inchiKey": "LSEFCHWGJNHZNT-UHFFFAOYSA-M",
+                "ratio": "3.0",
+                "role": "c1 synthon",
+                "notes": null
+            }
+        ],
+        "c1 synthon": "methyltriphenylphosphonium bromide",
+        "reactant_details": [
+            {
+                "name": "methyl (1R,4aR,5S,8aR)-1,4a-dimethyl-5-((E)-3-methyl-4-oxobut-2-en-1-yl)-6-methylenedecahydronaphthalene-1-carboxylate",
+                "smiles": "C[C@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)C\\C=C(\\C=O)/C)C)C(=O)OC",
+                "inchiKey": "MTXBOUHFHLZZDV-NEGMLWLESA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "methyl (1R,4aR,5S,8aR)-1,4a-dimethyl-5-((E)-3-methyl-4-oxobut-2-en-1-yl)-6-methylenedecahydronaphthalene-1-carboxylate",
+        "non-nucleophilic_base_details": [
+            {
+                "name": "potassium tert-butoxide",
+                "smiles": "CC(C)(C)[O-].[K+]",
+                "inchiKey": "LPNYRYFBWFDTMA-UHFFFAOYSA-N",
+                "ratio": "3.0",
+                "role": "non-nucleophilic base",
+                "notes": null
+            }
+        ],
+        "non-nucleophilic base": "potassium tert-butoxide",
+        "solvent_details": [
+            {
+                "name": "tetrahydrofuran",
+                "smiles": "C1CCCO1",
+                "inchiKey": "WYURNTSHIVDZCO-UHFFFAOYSA-N",
+                "ratio": "117",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "tetrahydrofuran",
+        "quench_details": [
+            {
+                "name": "ammonium chloride",
+                "smiles": "[Cl-].[NH4+]",
+                "inchiKey": "NLXLAEXVIDQMFP-UHFFFAOYSA-N",
+                "ratio": "117",
+                "role": "quench",
+                "notes": null,
+                "solvent": "ammonium chloride",
+                "concentration": "0",
+                "concentrationUnits": "mL"
+            }
+        ],
+        "quench": "ammonium chloride",
+        "product_details": [
+            {
+                "name": "(1R,4aR,5S,8aR)-1,4a-Dimethyl-6-methylene-5-[(2E)-3-methyl-2,4-pentadien-1-yl]decahydro-1-naphthalenecarboxylic acid methyl ester",
+                "smiles": "COC(=O)[C@@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)C\\C=C(\\C=C)/C)C)C",
+                "inchiKey": "WYJKGKPQXWDIQP-DVYSCBIBSA-N",
+                "ratio": "1.0",
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "(1R,4aR,5S,8aR)-1,4a-Dimethyl-6-methylene-5-[(2E)-3-methyl-2,4-pentadien-1-yl]decahydro-1-naphthalenecarboxylic acid methyl ester"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/97a3c4296365fd622aa65acd68218a80",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/97a3c4296365fd622aa65acd68218a80",
+        "smiles": "C(C)(C)C=1C(=CC=C(C1OC)OC)OC>ClCCl.C1(=CC=C(C=C1)S(=O)(=O)O)C.IN1C(CCC1=O)=O.[O-]S(=O)(=S)[O-].[Na+].[Na+]>IC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC",
+        "reaction_conditions": {
+            "time": "60",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "25",
+            "reflux": "1"
+        },
+        "yield": {
+            "amount": "93",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "3-isopropyl-2,4,5-trimethoxybenzene",
+                "smiles": "C(C)(C)C=1C(=CC=C(C1OC)OC)OC",
+                "inchiKey": "NEEZBYNHICTCIO-UHFFFAOYSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "3-isopropyl-2,4,5-trimethoxybenzene",
+        "solvent_details": [
+            {
+                "name": "dichloromethane",
+                "smiles": "ClCCl",
+                "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+                "ratio": "45.4",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "dichloromethane",
+        "catalyst_details": [
+            {
+                "name": "p-toluenesulfonic acid",
+                "smiles": "C1(=CC=C(C=C1)S(=O)(=O)O)C",
+                "inchiKey": "JOXIMZWYDAKGHI-UHFFFAOYSA-N",
+                "ratio": "0.2",
+                "role": "catalyst",
+                "notes": null
+            }
+        ],
+        "catalyst": "p-toluenesulfonic acid",
+        "halogenation_reagent_details": [
+            {
+                "name": "N-iodosuccinimide",
+                "smiles": "IN1C(CCC1=O)=O",
+                "inchiKey": "LQZMLBORDGWNPD-UHFFFAOYSA-N",
+                "ratio": "1.2",
+                "role": "halogenation reagent",
+                "notes": null
+            }
+        ],
+        "halogenation reagent": "N-iodosuccinimide",
+        "quench_details": [
+            {
+                "name": "sodium thiosulfate",
+                "smiles": "[O-]S(=O)(=S)[O-].[Na+].[Na+]",
+                "inchiKey": "AKHNMLFCWUSKQB-UHFFFAOYSA-L",
+                "ratio": "15.7",
+                "role": "quench",
+                "notes": null,
+                "solvent": "sodium thiosulfate",
+                "concentration": "0",
+                "concentrationUnits": "mL"
+            }
+        ],
+        "quench": "sodium thiosulfate",
+        "product_details": [
+            {
+                "name": "1-Iodo-3-isopropyl-2,4,5-trimethoxybenzene",
+                "smiles": "IC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC",
+                "inchiKey": "AXGYEDFFUSUBAJ-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "1-Iodo-3-isopropyl-2,4,5-trimethoxybenzene"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/4d28c56776eb4d94565a6ef0fe49d653",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/4d28c56776eb4d94565a6ef0fe49d653",
+        "smiles": "C(C1=CC=CC=C1)OC[C@@]1(O[C@H]1CC\\C(=C\\C=C)\\C)C.IC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC>C1CCCO1.[OH-].[Na+].B1C2CCCC1CCC2.ClCCl.[Pd](Cl)Cl.C1(=CC=CC=C1)P(C1=CC=CC=C1)[C-]1C=CC=C1.[CH-]1C=CC=C1.[Fe+2].C1(=CC=CC=C1)P(C1=CC=CC=C1)[C-]1C=CC=C1.[CH-]1C=CC=C1.[Fe+2]>C(C1=CC=CC=C1)OC[C@@]1(O[C@H]1CC\\C(=C\\CCC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC)\\C)C",
+        "reaction_conditions": {
+            "time": "735",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "0",
+            "reflux": "1"
+        },
+        "yield": {
+            "amount": "76",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "(2S,3S)-2-((Benzyloxy)methyl)-2-methyl-3-((E)-3-methylhexa-3,5-dien-1-yl)oxirane",
+                "smiles": "C(C1=CC=CC=C1)OC[C@@]1(O[C@H]1CC\\C(=C\\C=C)\\C)C",
+                "inchiKey": "OBQMMLXUILZLHS-WDIWZDMCSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            },
+            {
+                "name": "1-Iodo-3-isopropyl-2,4,5-trimethoxybenzene",
+                "smiles": "IC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC",
+                "inchiKey": "AXGYEDFFUSUBAJ-UHFFFAOYSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "(2S,3S)-2-((Benzyloxy)methyl)-2-methyl-3-((E)-3-methylhexa-3,5-dien-1-yl)oxirane",
+        "solvent_details": [
+            {
+                "name": "tetrahydrofuran",
+                "smiles": "C1CCCO1",
+                "inchiKey": "WYURNTSHIVDZCO-UHFFFAOYSA-N",
+                "ratio": "21.4",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "tetrahydrofuran",
+        "base_details": [
+            {
+                "name": "sodium hydroxide",
+                "smiles": "[OH-].[Na+]",
+                "inchiKey": "HEMHJVSKTPXQMS-UHFFFAOYSA-M",
+                "ratio": "55.5",
+                "role": "base",
+                "notes": null
+            }
+        ],
+        "base": "sodium hydroxide",
+        "reagent_details": [
+            {
+                "name": "9-borabicyclo[3.3.1]nonane",
+                "smiles": "B1C2CCCC1CCC2",
+                "inchiKey": "FEJUGLKDZJDVFY-UHFFFAOYSA-N",
+                "ratio": "1.0",
+                "role": "reagent",
+                "notes": null
+            }
+        ],
+        "reagent": "9-borabicyclo[3.3.1]nonane",
+        "catalyst_details": [
+            {
+                "name": "bis-(diphenylphosphinoferrocene) palladium dichloride dichloromethane",
+                "smiles": "ClCCl.[Pd](Cl)Cl.C1(=CC=CC=C1)P(C1=CC=CC=C1)[C-]1C=CC=C1.[CH-]1C=CC=C1.[Fe+2].C1(=CC=CC=C1)P(C1=CC=CC=C1)[C-]1C=CC=C1.[CH-]1C=CC=C1.[Fe+2]",
+                "inchiKey": "FMBUBIKGNRNMPX-UHFFFAOYSA-L",
+                "ratio": "0.05",
+                "role": "catalyst",
+                "notes": null
+            }
+        ],
+        "catalyst": "bis-(diphenylphosphinoferrocene) palladium dichloride dichloromethane",
+        "product_details": [
+            {
+                "name": "(2S,3S)-2-((Benzyloxy)methyl)-3-((E)-6-(3-isopropyl-2,4,5-trimethoxyphenyl)-3-methylhex-3-en-1-yl)-2-methyloxirane",
+                "smiles": "C(C1=CC=CC=C1)OC[C@@]1(O[C@H]1CC\\C(=C\\CCC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC)\\C)C",
+                "inchiKey": "RWFBTOYROKAHHD-YIAAKALVSA-N",
+                "ratio": "1.0",
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "(2S,3S)-2-((Benzyloxy)methyl)-3-((E)-6-(3-isopropyl-2,4,5-trimethoxyphenyl)-3-methylhex-3-en-1-yl)-2-methyloxirane"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/84bbc5faa4ecea46c820442b89eff562",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/84bbc5faa4ecea46c820442b89eff562",
+        "smiles": "C(C1=CC=CC=C1)OC[C@@]1(O[C@H]1CC\\C(=C\\CCC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC)\\C)C>ClCCl.C(O)([O-])=O.[Na+].B(F)(F)F.CCOCC>C(C1=CC=CC=C1)OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)O)C.C(C1=CC=CC=C1)OC[C@@]1([C@H](CCC(=C1CCC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC)C)O)C",
+        "reaction_conditions": {
+            "time": "30",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "-78",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "75",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "(2S,3S)-2-((Benzyloxy)methyl)-3-((E)-6-(3-isopropyl-2,4,5-trimethoxyphenyl)-3-methylhex-3-en-1-yl)-2-methyloxirane",
+                "smiles": "C(C1=CC=CC=C1)OC[C@@]1(O[C@H]1CC\\C(=C\\CCC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC)\\C)C",
+                "inchiKey": "RWFBTOYROKAHHD-YIAAKALVSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "(2S,3S)-2-((Benzyloxy)methyl)-3-((E)-6-(3-isopropyl-2,4,5-trimethoxyphenyl)-3-methylhex-3-en-1-yl)-2-methyloxirane",
+        "solvent_details": [
+            {
+                "name": "dichloromethane",
+                "smiles": "ClCCl",
+                "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+                "ratio": "101",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "dichloromethane",
+        "quench_details": [
+            {
+                "name": "sodium hydrogen carbonate",
+                "smiles": "C(O)([O-])=O.[Na+]",
+                "inchiKey": "UIIMBOGNXHQVGW-UHFFFAOYSA-M",
+                "ratio": "117",
+                "role": "quench",
+                "notes": null,
+                "solvent": "sodium hydrogen carbonate",
+                "concentration": "0",
+                "concentrationUnits": "mL"
+            }
+        ],
+        "quench": "sodium hydrogen carbonate",
+        "reagent_details": [
+            {
+                "name": "boron trifluoride diethyl etherate",
+                "smiles": "B(F)(F)F.CCOCC",
+                "inchiKey": "KZMGYPLQYOPHEL-UHFFFAOYSA-N",
+                "ratio": "1.2",
+                "role": "reagent",
+                "notes": null
+            }
+        ],
+        "reagent": "boron trifluoride diethyl etherate",
+        "product_details": [
+            {
+                "name": "(1R,2S,4aS,10aR)-1-((Benzyloxy)methyl)-7-isopropyl-5,6,8-trimethoxy-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-2-ol",
+                "smiles": "C(C1=CC=CC=C1)OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)O)C",
+                "inchiKey": "QUFUXZDMKVDCKD-HVZWOXGHSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            },
+            {
+                "name": "(1S,2R)-2-((Benzyloxy)methyl)-3-(3-isopropyl-2,4,5-trimethoxyphenethyl)-2,4-dimethylcyclohex-3-en-1-ol",
+                "smiles": "C(C1=CC=CC=C1)OC[C@@]1([C@H](CCC(=C1CCC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC)C)O)C",
+                "inchiKey": "WDQHZEMNMMBOLL-YZNIXAGQSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "(1R,2S,4aS,10aR)-1-((Benzyloxy)methyl)-7-isopropyl-5,6,8-trimethoxy-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-2-ol"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/5ed4b08b7d0b7b6f82f2992f1aac9195",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/5ed4b08b7d0b7b6f82f2992f1aac9195",
+        "smiles": "C(C1=CC=CC=C1)OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)O)C>CO[H].[Pd]C>OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)O)C",
+        "reaction_conditions": {
+            "time": "300",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "25",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "99",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "(1R,2S,4aS,10aR)-1-((Benzyloxy)methyl)-7-isopropyl-5,6,8-trimethoxy-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-2-ol",
+                "smiles": "C(C1=CC=CC=C1)OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)O)C",
+                "inchiKey": "QUFUXZDMKVDCKD-HVZWOXGHSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "(1R,2S,4aS,10aR)-1-((Benzyloxy)methyl)-7-isopropyl-5,6,8-trimethoxy-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-2-ol",
+        "solvent_details": [
+            {
+                "name": "methanol",
+                "smiles": "CO[H]",
+                "inchiKey": "OKKJLVBELUTLKV-UHFFFAOYSA-N",
+                "ratio": "180",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "methanol",
+        "catalyst_details": [
+            {
+                "name": "palladium on carbon",
+                "smiles": "[Pd]C",
+                "inchiKey": "KHRHWVHIOPPTEI-UHFFFAOYSA-N",
+                "ratio": "0.4",
+                "role": "catalyst",
+                "notes": null
+            }
+        ],
+        "catalyst": "palladium on carbon",
+        "product_details": [
+            {
+                "name": "(1R,2S,4aS,10aR)-1-(Hydroxymethyl)-7-isopropyl-5,6,8-trimethoxy-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-2-ol",
+                "smiles": "OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)O)C",
+                "inchiKey": "SRMOBCBSTQBMNN-QODMOLNLSA-N",
+                "ratio": "1.0",
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "(1R,2S,4aS,10aR)-1-(Hydroxymethyl)-7-isopropyl-5,6,8-trimethoxy-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-2-ol"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/141a5151beaf66b8ae390745accc4838",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/141a5151beaf66b8ae390745accc4838",
+        "smiles": "CI.C(=S)=S.OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)O)C>C1CCCO1.[H-].[Na+]>C(OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)OC(=S)SC)C)(=S)SC",
+        "reaction_conditions": {
+            "time": "480",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "0",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "-1",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "c1_synthon_details": [
+            {
+                "name": "methyl iodide",
+                "smiles": "CI",
+                "inchiKey": "INQOMBQAUSQDDS-UHFFFAOYSA-N",
+                "ratio": "8.0",
+                "role": "c1 synthon",
+                "notes": null
+            }
+        ],
+        "c1 synthon": "methyl iodide",
+        "reactant_details": [
+            {
+                "name": "(1R,2S,4aS,10aR)-1-(Hydroxymethyl)-7-isopropyl-5,6,8-trimethoxy-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-2-ol",
+                "smiles": "OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)O)C",
+                "inchiKey": "SRMOBCBSTQBMNN-QODMOLNLSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "(1R,2S,4aS,10aR)-1-(Hydroxymethyl)-7-isopropyl-5,6,8-trimethoxy-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-2-ol",
+        "solvent_details": [
+            {
+                "name": "tetrahydrofuran",
+                "smiles": "C1CCCO1",
+                "inchiKey": "WYURNTSHIVDZCO-UHFFFAOYSA-N",
+                "ratio": "107",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "tetrahydrofuran",
+        "base_details": [
+            {
+                "name": "sodium hydride",
+                "smiles": "[H-].[Na+]",
+                "inchiKey": "BZKBCQXYZZXSCO-UHFFFAOYSA-N",
+                "ratio": "4.0",
+                "role": "base",
+                "notes": null,
+                "solvent": "sodium hydride",
+                "concentration": "60",
+                "concentrationUnits": "mmol"
+            }
+        ],
+        "base": "sodium hydride",
+        "building_block_details": [
+            {
+                "name": "carbon disulfide",
+                "smiles": "C(=S)=S",
+                "inchiKey": "QGJOPFRUJISHPQ-UHFFFAOYSA-N",
+                "ratio": "6.0",
+                "role": "building block",
+                "notes": null
+            }
+        ],
+        "building block": "carbon disulfide",
+        "product_details": [
+            {
+                "name": "O-(((1R,2S,4aS,10aR)-7-Isopropyl-5,6,8-trimethoxy-1,4a-dimethyl-2-(((methylthio)carbonothioyl)oxy)-1,2,3,4,4a,9,10,10a-octahydrophenanthren-1-yl)methyl) S-methyl carbonodithioate",
+                "smiles": "C(OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)OC(=S)SC)C)(=S)SC",
+                "inchiKey": "AMCQTJCVKHYQGM-DLSXWELSSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "O-(((1R,2S,4aS,10aR)-7-Isopropyl-5,6,8-trimethoxy-1,4a-dimethyl-2-(((methylthio)carbonothioyl)oxy)-1,2,3,4,4a,9,10,10a-octahydrophenanthren-1-yl)methyl) S-methyl carbonodithioate"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/983114d9e174bb55a57f8b228058c0e7",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/983114d9e174bb55a57f8b228058c0e7",
+        "smiles": "C(OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)OC(=S)SC)C)(=S)SC>C1(=CC=CC=C1)C.CC(C)(C#N)/N=N/C(C)(C)C#N.C(CCC)[SnH](CCCC)CCCC>C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3CCC2=C1OC)(C)C)C)OC)OC",
+        "reaction_conditions": {
+            "time": "480",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "25",
+            "reflux": "1"
+        },
+        "yield": {
+            "amount": "75",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "O-(((1R,2S,4aS,10aR)-7-Isopropyl-5,6,8-trimethoxy-1,4a-dimethyl-2-(((methylthio)carbonothioyl)oxy)-1,2,3,4,4a,9,10,10a-octahydrophenanthren-1-yl)methyl) S-methyl carbonodithioate",
+                "smiles": "C(OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)OC(=S)SC)C)(=S)SC",
+                "inchiKey": "AMCQTJCVKHYQGM-DLSXWELSSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "O-(((1R,2S,4aS,10aR)-7-Isopropyl-5,6,8-trimethoxy-1,4a-dimethyl-2-(((methylthio)carbonothioyl)oxy)-1,2,3,4,4a,9,10,10a-octahydrophenanthren-1-yl)methyl) S-methyl carbonodithioate",
+        "solvent_details": [
+            {
+                "name": "toluene",
+                "smiles": "C1(=CC=CC=C1)C",
+                "inchiKey": "YXFVVABEGXRONW-UHFFFAOYSA-N",
+                "ratio": "72.6",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "toluene",
+        "radical_initiator_details": [
+            {
+                "name": "Azobisisobutyronitrile",
+                "smiles": "CC(C)(C#N)/N=N/C(C)(C)C#N",
+                "inchiKey": "OZAIFHULBGXAKX-UHFFFAOYSA-N",
+                "ratio": "0.6",
+                "role": "radical initiator",
+                "notes": null
+            }
+        ],
+        "radical initiator": "Azobisisobutyronitrile",
+        "reagent_details": [
+            {
+                "name": "tri-n-butyltin hydride",
+                "smiles": "C(CCC)[SnH](CCCC)CCCC",
+                "inchiKey": "DBGVGMSCBYYSLD-UHFFFAOYSA-N",
+                "ratio": "6.0",
+                "role": "reagent",
+                "notes": null
+            }
+        ],
+        "reagent": "tri-n-butyltin hydride",
+        "product_details": [
+            {
+                "name": "(4aS,10aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthrene",
+                "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3CCC2=C1OC)(C)C)C)OC)OC",
+                "inchiKey": "XGTHJDPAKPKRKK-HJPURHCSSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "(4aS,10aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthrene"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/471090f8d0faafe3cd1302ac41de8613",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/471090f8d0faafe3cd1302ac41de8613",
+        "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3CCC2=C1OC)(C)C)C)OC)OC>ClCCl.[O-2].[O-2].[O-2].[Cr+6].CC1=NNC(=C1)C>C(C)(C)C1=C(C=C2[C@]3(CCCC([C@@H]3CC(C2=C1)=O)(C)C)C)OC",
+        "reaction_conditions": {
+            "time": "15",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "-15",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "76",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "(4aS,10aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthrene",
+                "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3CCC2=C1OC)(C)C)C)OC)OC",
+                "inchiKey": "XGTHJDPAKPKRKK-HJPURHCSSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "(4aS,10aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthrene",
+        "solvent_details": [
+            {
+                "name": "dichloromethane",
+                "smiles": "ClCCl",
+                "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+                "ratio": "96.9",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "dichloromethane",
+        "oxidizing_agent_details": [
+            {
+                "name": "chromium trioxide",
+                "smiles": "[O-2].[O-2].[O-2].[Cr+6]",
+                "inchiKey": "GAMDZJFZMJECOS-UHFFFAOYSA-N",
+                "ratio": "10.0",
+                "role": "oxidizing agent",
+                "notes": null
+            }
+        ],
+        "oxidizing agent": "chromium trioxide",
+        "reagent_details": [
+            {
+                "name": "3,5-dimethylpyrazole",
+                "smiles": "CC1=NNC(=C1)C",
+                "inchiKey": "SDXAWLJRERMRKF-UHFFFAOYSA-N",
+                "ratio": "10.0",
+                "role": "reagent",
+                "notes": null
+            }
+        ],
+        "reagent": "3,5-dimethylpyrazole",
+        "product_details": [
+            {
+                "name": "(4aS,10aS)-7-Isopropyl-6-methoxy-1,1,4a-trimethyl-2,3,4,4a,10,10a-hexahydrophenanthren-9(1H)-one",
+                "smiles": "C(C)(C)C1=C(C=C2[C@]3(CCCC([C@@H]3CC(C2=C1)=O)(C)C)C)OC",
+                "inchiKey": "DMYISGJMGRTXJW-PZJWPPBQSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "(4aS,10aS)-7-Isopropyl-6-methoxy-1,1,4a-trimethyl-2,3,4,4a,10,10a-hexahydrophenanthren-9(1H)-one"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/adfd49f0eaf4709e3bc49ce9fcbf8111",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/adfd49f0eaf4709e3bc49ce9fcbf8111",
+        "smiles": "C(C)(C)C1=C(C=C2[C@]3(CCCC([C@@H]3CC(C2=C1)=O)(C)C)C)OC>CC#N.C1CCC2=NCCCN2CC1.C(C)(=O)NC1=CC=C(C=C1)S(=O)(=O)N=[N+]=[N-]>[N+](=[N-])=C1C(C2=C(C(=C(C(=C2[C@]2(CCCC([C@H]12)(C)C)C)OC)OC)C(C)C)OC)=O",
+        "reaction_conditions": {
+            "time": "600",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "25",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "99",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "(4aS,10aS)-7-Isopropyl-6-methoxy-1,1,4a-trimethyl-2,3,4,4a,10,10a-hexahydrophenanthren-9(1H)-one",
+                "smiles": "C(C)(C)C1=C(C=C2[C@]3(CCCC([C@@H]3CC(C2=C1)=O)(C)C)C)OC",
+                "inchiKey": "DMYISGJMGRTXJW-PZJWPPBQSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "(4aS,10aS)-7-Isopropyl-6-methoxy-1,1,4a-trimethyl-2,3,4,4a,10,10a-hexahydrophenanthren-9(1H)-one",
+        "solvent_details": [
+            {
+                "name": "acetonitrile",
+                "smiles": "CC#N",
+                "inchiKey": "WEVYAHXRMPXWCK-UHFFFAOYSA-N",
+                "ratio": "28.1",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "acetonitrile",
+        "non-nucleophilic_base_details": [
+            {
+                "name": "1,8-Diazabicyclo[5.4.0]undec-7-ene",
+                "smiles": "C1CCC2=NCCCN2CC1",
+                "inchiKey": "GQHTUMJGOHRCHB-UHFFFAOYSA-N",
+                "ratio": "2.5",
+                "role": "non-nucleophilic base",
+                "notes": null
+            }
+        ],
+        "non-nucleophilic base": "1,8-Diazabicyclo[5.4.0]undec-7-ene",
+        "reagent_details": [
+            {
+                "name": "4-acetamidobenzenesulphonyl azide",
+                "smiles": "C(C)(=O)NC1=CC=C(C=C1)S(=O)(=O)N=[N+]=[N-]",
+                "inchiKey": "NTMHWRHEGDRTPD-UHFFFAOYSA-N",
+                "ratio": "2.0",
+                "role": "reagent",
+                "notes": null
+            }
+        ],
+        "reagent": "4-acetamidobenzenesulphonyl azide",
+        "product_details": [
+            {
+                "name": "(4aS,10aS)-10-Diazo-7-isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,10,10a-hexahydrophenanthren-9(1H)-one",
+                "smiles": "[N+](=[N-])=C1C(C2=C(C(=C(C(=C2[C@]2(CCCC([C@H]12)(C)C)C)OC)OC)C(C)C)OC)=O",
+                "inchiKey": "QHIHKMUDUKWODE-JTHBVZDNSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "(4aS,10aS)-10-Diazo-7-isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,10,10a-hexahydrophenanthren-9(1H)-one"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/8397fe3b9ac2fd44c03759eea4af82c0",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/8397fe3b9ac2fd44c03759eea4af82c0",
+        "smiles": "C(C1=CC=CC=C1)O.[N+](=[N-])=C1C(C2=C(C(=C(C(=C2[C@]2(CCCC([C@H]12)(C)C)C)OC)OC)C(C)C)OC)=O>N1=C(C=C(C=C1C)C)C>C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)C(=O)OCC1=CC=CC=C1)(C)C)C)OC)OC",
+        "reaction_conditions": {
+            "time": "50",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "25",
+            "reflux": "1"
+        },
+        "yield": {
+            "amount": "70",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "(4aS,10aS)-10-Diazo-7-isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,10,10a-hexahydrophenanthren-9(1H)-one",
+                "smiles": "[N+](=[N-])=C1C(C2=C(C(=C(C(=C2[C@]2(CCCC([C@H]12)(C)C)C)OC)OC)C(C)C)OC)=O",
+                "inchiKey": "QHIHKMUDUKWODE-JTHBVZDNSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "(4aS,10aS)-10-Diazo-7-isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,10,10a-hexahydrophenanthren-9(1H)-one",
+        "non-nucleophilic_base_details": [
+            {
+                "name": "2,4,6-Trimethylpyridine",
+                "smiles": "N1=C(C=C(C=C1C)C)C",
+                "inchiKey": "BWZVCCNYKMEVEX-UHFFFAOYSA-N",
+                "ratio": "5.0",
+                "role": "non-nucleophilic base",
+                "notes": null
+            }
+        ],
+        "non-nucleophilic base": "2,4,6-Trimethylpyridine",
+        "building_block_details": [
+            {
+                "name": "benzyl alcohol",
+                "smiles": "C(C1=CC=CC=C1)O",
+                "inchiKey": "WVDDGKGOMKODPV-UHFFFAOYSA-N",
+                "ratio": "5.0",
+                "role": "building block",
+                "notes": null
+            }
+        ],
+        "building block": "benzyl alcohol",
+        "product_details": [
+            {
+                "name": "Benzyl (4aS,9S,9aS)-7-isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluorene-9-carboxylate",
+                "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)C(=O)OCC1=CC=CC=C1)(C)C)C)OC)OC",
+                "inchiKey": "COEYIZSQUDOELR-GJPZQIGFSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "Benzyl (4aS,9S,9aS)-7-isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluorene-9-carboxylate"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/14e1de795379c2c2324c30a0b101d950",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/14e1de795379c2c2324c30a0b101d950",
+        "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)C=O)(C)C)C)OC)OC>ClCCl.ClC=1C=C(C(=O)OO)C=CC1.C(O)([O-])=O.[Na+]>C(=O)O[C@@H]1C2=C(C(=C(C(=C2[C@]2(CCCC([C@H]12)(C)C)C)OC)OC)C(C)C)OC",
+        "reaction_conditions": {
+            "time": "480",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "25",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "-1",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "(4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluorene-9-carbaldehyde",
+                "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)C=O)(C)C)C)OC)OC",
+                "inchiKey": "SAHNXPRYBKFTTP-ZQQNNKCXSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "(4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluorene-9-carbaldehyde",
+        "solvent_details": [
+            {
+                "name": "dichloromethane",
+                "smiles": "ClCCl",
+                "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+                "ratio": "75.2",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "dichloromethane",
+        "oxidizing_agent_details": [
+            {
+                "name": "meta-chloroperoxybenzoic acid",
+                "smiles": "ClC=1C=C(C(=O)OO)C=CC1",
+                "inchiKey": "NHQDETIJWKXCTC-UHFFFAOYSA-N",
+                "ratio": "1.5",
+                "role": "oxidizing agent",
+                "notes": null
+            }
+        ],
+        "oxidizing agent": "meta-chloroperoxybenzoic acid",
+        "base_details": [
+            {
+                "name": "sodium hydrogen carbonate",
+                "smiles": "C(O)([O-])=O.[Na+]",
+                "inchiKey": "UIIMBOGNXHQVGW-UHFFFAOYSA-M",
+                "ratio": "2.5",
+                "role": "base",
+                "notes": null,
+                "solvent": "sodium hydrogen carbonate",
+                "concentration": "0",
+                "concentrationUnits": "mmol"
+            }
+        ],
+        "base": "sodium hydrogen carbonate",
+        "product_details": [
+            {
+                "name": "((4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluorene-9-yl) formate",
+                "smiles": "C(=O)O[C@@H]1C2=C(C(=C(C(=C2[C@]2(CCCC([C@H]12)(C)C)C)OC)OC)C(C)C)OC",
+                "inchiKey": "FAVOOEKSBZPIAI-UNWVZKJWSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "((4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluorene-9-yl) formate"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/35ac874a63d20a10ac3cf02ed2391dad",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/35ac874a63d20a10ac3cf02ed2391dad",
+        "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)O)(C)C)C)OC)OC>CC#N.O.[N+](=O)([O-])[O-].[NH4+].[Ce+4].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-]>O[C@H]1[C@H]2C(CCC[C@@]2(C=2C(C(=C(C(C12)=O)C(C)C)OC)=O)C)(C)C",
+        "reaction_conditions": {
+            "time": "180",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "0",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "91",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "(4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluoren-9-ol",
+                "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)O)(C)C)C)OC)OC",
+                "inchiKey": "WWIHHHVBUQCFIY-QGCDCVKKSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "(4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluoren-9-ol",
+        "solvent_details": [
+            {
+                "name": "acetonitrile",
+                "smiles": "CC#N",
+                "inchiKey": "WEVYAHXRMPXWCK-UHFFFAOYSA-N",
+                "ratio": "162",
+                "role": "solvent",
+                "notes": null
+            },
+            {
+                "name": "water",
+                "smiles": "O",
+                "inchiKey": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+                "ratio": "469",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "acetonitrile",
+        "oxidizing_agent_details": [
+            {
+                "name": "ceric ammonium nitrate",
+                "smiles": "[N+](=O)([O-])[O-].[NH4+].[Ce+4].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-]",
+                "inchiKey": "PCCNIENXBRUYFK-UHFFFAOYSA-O",
+                "ratio": "5.0",
+                "role": "oxidizing agent",
+                "notes": null
+            }
+        ],
+        "oxidizing agent": "ceric ammonium nitrate",
+        "product_details": [
+            {
+                "name": "(4bS,8aS,9S)-9-Hydroxy-2-isopropyl-3-methoxy-4b,8,8-trimethyl-5,6,7,8,8a,9-hexahydro-1H-fluorene-1,4(4bH)-dione",
+                "smiles": "O[C@H]1[C@H]2C(CCC[C@@]2(C=2C(C(=C(C(C12)=O)C(C)C)OC)=O)C)(C)C",
+                "inchiKey": "GRNLKMLJKTZAJE-MOXGXCLJSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "(4bS,8aS,9S)-9-Hydroxy-2-isopropyl-3-methoxy-4b,8,8-trimethyl-5,6,7,8,8a,9-hexahydro-1H-fluorene-1,4(4bH)-dione"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/387df8a576d39a725b42bfce9cac05ae",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/387df8a576d39a725b42bfce9cac05ae",
+        "smiles": "C(C)(C)C1=C(C([C@]23CC=C([C@H]([C@@]3([C@H]([C@H]3C(CCC[C@]23C)(C)C)O)C1=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C)C)=O)OC>ClCCl.C(C)(=O)OI1(OC(C2=C1C=CC=C2)=O)(OC(C)=O)OC(C)=O>C(C)(C)C1=C(C([C@]23CC=C([C@H]([C@@]3(C([C@H]3C(CCC[C@]23C)(C)C)=O)C1=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C)C)=O)OC",
+        "reaction_conditions": {
+            "time": "120",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "25",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "-1",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "methyl (1R,4aR,5S,8aR,9S)-5-(((1R,4aR,4bS,8aS,9aR)-11-isopropyl-12-methoxy-2,4b,8,8-tetramethyl-9-hydroxy-10,13-dioxo-1,4,4b,5,7,8,8a,9-octahydro-6H-4a,9a-but[2]enofluoren-1-yl)methyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+                "smiles": "C(C)(C)C1=C(C([C@]23CC=C([C@H]([C@@]3([C@H]([C@H]3C(CCC[C@]23C)(C)C)O)C1=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C)C)=O)OC",
+                "inchiKey": "JAWWROOINJJJKO-CYCRWPGJSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "methyl (1R,4aR,5S,8aR,9S)-5-(((1R,4aR,4bS,8aS,9aR)-11-isopropyl-12-methoxy-2,4b,8,8-tetramethyl-9-hydroxy-10,13-dioxo-1,4,4b,5,7,8,8a,9-octahydro-6H-4a,9a-but[2]enofluoren-1-yl)methyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+        "solvent_details": [
+            {
+                "name": "dichloromethane",
+                "smiles": "ClCCl",
+                "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+                "ratio": "244",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "dichloromethane",
+        "oxidizing_agent_details": [
+            {
+                "name": "3-Oxo-1,3-dihydro-1λ5,2-benziodoxole-1,1,1-triyl triacetate",
+                "smiles": "C(C)(=O)OI1(OC(C2=C1C=CC=C2)=O)(OC(C)=O)OC(C)=O",
+                "inchiKey": "NKLCNNUWBJBICK-UHFFFAOYSA-N",
+                "ratio": "1.2",
+                "role": "oxidizing agent",
+                "notes": null
+            }
+        ],
+        "oxidizing agent": "3-Oxo-1,3-dihydro-1λ5,2-benziodoxole-1,1,1-triyl triacetate",
+        "product_details": [
+            {
+                "name": "methyl (1R,4aR,5S,8aR)-5-(((1R,4aR,4bS,8aS,9aR)-11-isopropyl-12-methoxy-2,4b,8,8-tetramethyl-9,10,13-trioxo-1,4,4b,5,7,8,8a,9-octahydro-6H-4a,9a-but[2]enofluoren-1-yl)methyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+                "smiles": "C(C)(C)C1=C(C([C@]23CC=C([C@H]([C@@]3(C([C@H]3C(CCC[C@]23C)(C)C)=O)C1=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C)C)=O)OC",
+                "inchiKey": "LQTPFQZFQDEQHS-ITICNZIISA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "methyl (1R,4aR,5S,8aR)-5-(((1R,4aR,4bS,8aS,9aR)-11-isopropyl-12-methoxy-2,4b,8,8-tetramethyl-9,10,13-trioxo-1,4,4b,5,7,8,8a,9-octahydro-6H-4a,9a-but[2]enofluoren-1-yl)methyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/11020db16d8305594a927da27efd0b29",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/11020db16d8305594a927da27efd0b29",
+        "smiles": "COC(=O)[C@@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)C\\C=C(\\C=C)/C)C)C.O[C@H]1[C@H]2C(CCC[C@@]2(C=2C(C(=C(C(C12)=O)C(C)C)OC)=O)C)(C)C>ClCCl.FC(C(C(C(CC(C(C)(C)C)=O)=O)(F)F)(F)F)(F)F.FC(C(C(C(CC(C(C)(C)C)=O)=O)(F)F)(F)F)(F)F.FC(C(C(C(CC(C(C)(C)C)=O)=O)(F)F)(F)F)(F)F.[Eu]>C(C)(C)C1=C(C([C@]23CC=C([C@H]([C@@]3(C([C@H]3C(CCC[C@]23C)(C)C)=O)C1=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C)C)=O)OC",
+        "reaction_conditions": {
+            "time": "1440",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "25",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "72",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "(1R,4aR,5S,8aR)-1,4a-Dimethyl-6-methylene-5-[(2E)-3-methyl-2,4-pentadien-1-yl]decahydro-1-naphthalenecarboxylic acid methyl ester",
+                "smiles": "COC(=O)[C@@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)C\\C=C(\\C=C)/C)C)C",
+                "inchiKey": "WYJKGKPQXWDIQP-DVYSCBIBSA-N",
+                "ratio": "1.1",
+                "role": "reactant",
+                "notes": null
+            },
+            {
+                "name": "(4bS,8aS,9S)-9-Hydroxy-2-isopropyl-3-methoxy-4b,8,8-trimethyl-5,6,7,8,8a,9-hexahydro-1H-fluorene-1,4(4bH)-dione",
+                "smiles": "O[C@H]1[C@H]2C(CCC[C@@]2(C=2C(C(=C(C(C12)=O)C(C)C)OC)=O)C)(C)C",
+                "inchiKey": "GRNLKMLJKTZAJE-MOXGXCLJSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "(1R,4aR,5S,8aR)-1,4a-Dimethyl-6-methylene-5-[(2E)-3-methyl-2,4-pentadien-1-yl]decahydro-1-naphthalenecarboxylic acid methyl ester",
+        "solvent_details": [
+            {
+                "name": "dichloromethane",
+                "smiles": "ClCCl",
+                "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+                "ratio": "120",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "dichloromethane",
+        "lewis_acid_details": [
+            {
+                "name": "europium Tris(1,1,1,2,2,3,3-heptafluoro-7,7-dimethyl-4,6-octanedione)",
+                "smiles": "FC(C(C(C(CC(C(C)(C)C)=O)=O)(F)F)(F)F)(F)F.FC(C(C(C(CC(C(C)(C)C)=O)=O)(F)F)(F)F)(F)F.FC(C(C(C(CC(C(C)(C)C)=O)=O)(F)F)(F)F)(F)F.[Eu]",
+                "inchiKey": "IVLFZIQZPTZTBW-UHFFFAOYSA-N",
+                "ratio": "0.2",
+                "role": "lewis acid",
+                "notes": null
+            }
+        ],
+        "lewis acid": "europium Tris(1,1,1,2,2,3,3-heptafluoro-7,7-dimethyl-4,6-octanedione)",
+        "product_details": [
+            {
+                "name": "methyl (1R,4aR,5S,8aR)-5-(((1R,4aR,4bS,8aS,9aR)-11-isopropyl-12-methoxy-2,4b,8,8-tetramethyl-9,10,13-trioxo-1,4,4b,5,7,8,8a,9-octahydro-6H-4a,9a-but[2]enofluoren-1-yl)methyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+                "smiles": "C(C)(C)C1=C(C([C@]23CC=C([C@H]([C@@]3(C([C@H]3C(CCC[C@]23C)(C)C)=O)C1=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C)C)=O)OC",
+                "inchiKey": "LQTPFQZFQDEQHS-ITICNZIISA-N",
+                "ratio": "0.7",
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "methyl (1R,4aR,5S,8aR)-5-(((1R,4aR,4bS,8aS,9aR)-11-isopropyl-12-methoxy-2,4b,8,8-tetramethyl-9,10,13-trioxo-1,4,4b,5,7,8,8a,9-octahydro-6H-4a,9a-but[2]enofluoren-1-yl)methyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/cc10a9e997898a29d7d2c54f9dbf52b4",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/cc10a9e997898a29d7d2c54f9dbf52b4",
+        "smiles": "C(C)(C)C1=C(C([C@]23CC=C([C@H]([C@@]3(C([C@H]3C(CCC[C@]23C)(C)C)=O)C1=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C)C)=O)OC>[Cl-].[NH4+].N1=C(C=C(C=C1C)C)C.[I-].[Li+]>OC=1C([C@]23CC=C([C@H]([C@@]3(C([C@H]3C(CCC[C@]23C)(C)C)=O)C(C1C(C)C)=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)O)C)C)C)=O",
+        "reaction_conditions": {
+            "time": "240",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "25",
+            "reflux": "1"
+        },
+        "yield": {
+            "amount": "86",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "methyl (1R,4aR,5S,8aR)-5-(((1R,4aR,4bS,8aS,9aR)-11-isopropyl-12-methoxy-2,4b,8,8-tetramethyl-9,10,13-trioxo-1,4,4b,5,7,8,8a,9-octahydro-6H-4a,9a-but[2]enofluoren-1-yl)methyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+                "smiles": "C(C)(C)C1=C(C([C@]23CC=C([C@H]([C@@]3(C([C@H]3C(CCC[C@]23C)(C)C)=O)C1=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C)C)=O)OC",
+                "inchiKey": "LQTPFQZFQDEQHS-ITICNZIISA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "methyl (1R,4aR,5S,8aR)-5-(((1R,4aR,4bS,8aS,9aR)-11-isopropyl-12-methoxy-2,4b,8,8-tetramethyl-9,10,13-trioxo-1,4,4b,5,7,8,8a,9-octahydro-6H-4a,9a-but[2]enofluoren-1-yl)methyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+        "quench_details": [
+            {
+                "name": "ammonium chloride",
+                "smiles": "[Cl-].[NH4+]",
+                "inchiKey": "NLXLAEXVIDQMFP-UHFFFAOYSA-N",
+                "ratio": "3550",
+                "role": "quench",
+                "notes": null,
+                "solvent": "ammonium chloride",
+                "concentration": "0",
+                "concentrationUnits": "mL"
+            }
+        ],
+        "quench": "ammonium chloride",
+        "non-nucleophilic_base_details": [
+            {
+                "name": "2,4,6-Trimethylpyridine",
+                "smiles": "N1=C(C=C(C=C1C)C)C",
+                "inchiKey": "BWZVCCNYKMEVEX-UHFFFAOYSA-N",
+                "ratio": "619",
+                "role": "non-nucleophilic base",
+                "notes": null
+            }
+        ],
+        "non-nucleophilic base": "2,4,6-Trimethylpyridine",
+        "catalyst_details": [
+            {
+                "name": "lithium iodide",
+                "smiles": "[I-].[Li+]",
+                "inchiKey": "HSZCZNFXUDYRKD-UHFFFAOYSA-M",
+                "ratio": "10.0",
+                "role": "catalyst",
+                "notes": null
+            }
+        ],
+        "catalyst": "lithium iodide",
+        "product_details": [
+            {
+                "name": "(1R,4aR,5S,8aR)-5-(((1R,4aR,4bS,8aS,9aR)-12-hydroxy-11-isopropyl-2,4b,8,8-tetramethyl-9,10,13-trioxo-1,4,4b,5,7,8,8a,9-octahydro-6H-4a,9a-but[2]enofluoren-1-yl)methyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylic acid",
+                "smiles": "OC=1C([C@]23CC=C([C@H]([C@@]3(C([C@H]3C(CCC[C@]23C)(C)C)=O)C(C1C(C)C)=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)O)C)C)C)=O",
+                "inchiKey": "FNSGLWUVLMTZLD-QJPJWCLSSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "(1R,4aR,5S,8aR)-5-(((1R,4aR,4bS,8aS,9aR)-12-hydroxy-11-isopropyl-2,4b,8,8-tetramethyl-9,10,13-trioxo-1,4,4b,5,7,8,8a,9-octahydro-6H-4a,9a-but[2]enofluoren-1-yl)methyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylic acid"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/f60676b87fb3fb15cb93c2260301e683",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/f60676b87fb3fb15cb93c2260301e683",
+        "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\CO)/C)/C)/C>ClCCl.[OH-].[Na+].C(C)(C)(C)OO.CC([O-])C.[Ti+4].CC([O-])C.CC([O-])C.CC([O-])C.O[C@@H](C(=O)OCC)[C@@H](C(=O)OCC)O>C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@@]1(C)CO)/C)/C",
+        "reaction_conditions": {
+            "time": "510",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "-30",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "-1",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "(2E,6E,10E)-12-Hydroxy-3,7,11-trimethyldodeca-2,6,10-trien-1-yl acetate",
+                "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\CO)/C)/C)/C",
+                "inchiKey": "PMMLYUKFEGLCHF-JDDBBKIWSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "(2E,6E,10E)-12-Hydroxy-3,7,11-trimethyldodeca-2,6,10-trien-1-yl acetate",
+        "solvent_details": [
+            {
+                "name": "dichloromethane",
+                "smiles": "ClCCl",
+                "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+                "ratio": "4.0",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "dichloromethane",
+        "quench_details": [
+            {
+                "name": "sodium hydroxide",
+                "smiles": "[OH-].[Na+]",
+                "inchiKey": "HEMHJVSKTPXQMS-UHFFFAOYSA-M",
+                "ratio": "75.3",
+                "role": "quench",
+                "notes": null
+            }
+        ],
+        "quench": "sodium hydroxide",
+        "oxidizing_agent_details": [
+            {
+                "name": "tert-butyl hydroperoxide",
+                "smiles": "C(C)(C)(C)OO",
+                "inchiKey": "CIHOLLKRGTVIJN-UHFFFAOYSA-N",
+                "ratio": "2.0",
+                "role": "oxidizing agent",
+                "notes": null,
+                "solvent": "tert-butyl hydroperoxide",
+                "concentration": "6",
+                "concentrationUnits": "mL"
+            }
+        ],
+        "oxidizing agent": "tert-butyl hydroperoxide",
+        "lewis_acid_details": [
+            {
+                "name": "Titanium isopropoxide",
+                "smiles": "CC([O-])C.[Ti+4].CC([O-])C.CC([O-])C.CC([O-])C",
+                "inchiKey": "VXUYXOFXAQZZMF-UHFFFAOYSA-N",
+                "ratio": "0.3",
+                "role": "lewis acid",
+                "notes": null
+            }
+        ],
+        "lewis acid": "Titanium isopropoxide",
+        "desiccant_details": [
+            {
+                "name": "4A molsieves",
+                "smiles": "*4A molsieves",
+                "inchiKey": null,
+                "ratio": null,
+                "role": "desiccant",
+                "notes": null
+            }
+        ],
+        "desiccant": "4A molsieves",
+        "ligand_details": [
+            {
+                "name": "Diethyl (2R,3S)-2,3-dihydroxysuccinate",
+                "smiles": "O[C@@H](C(=O)OCC)[C@@H](C(=O)OCC)O",
+                "inchiKey": "YSAVZVORKRDODB-OLQVQODUSA-N",
+                "ratio": "0.10",
+                "role": "ligand",
+                "notes": null
+            }
+        ],
+        "ligand": "Diethyl (2R,3S)-2,3-dihydroxysuccinate",
+        "product_details": [
+            {
+                "name": "(2E,6E)-9-((2S,3S)-3-(Hydroxymethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate",
+                "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@@]1(C)CO)/C)/C",
+                "inchiKey": "YJNFRKKGRSTGPV-MMROGUSUSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "(2E,6E)-9-((2S,3S)-3-(Hydroxymethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/a7b0495c238337a66893d82eb3f9d73d",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/a7b0495c238337a66893d82eb3f9d73d",
+        "smiles": "CI.C(=S)=S.C(C)(=O)OC[C@@H]1[C@]2(CC[C@@H]([C@]([C@@H]2CCC1=C)(C(=O)OC)C)O)C>C1CCCO1.[H-].[Na+].[Cl-].[NH4+]>C(C)(=O)OC[C@@H]2[C@]1(CC[C@@H]([C@]([C@@H]1CCC2=C)(C(=O)[O-])C)OC(=S)S[Na])C",
+        "reaction_conditions": {
+            "time": "720",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "0",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "-1",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "c1_synthon_details": [
+            {
+                "name": "methyl iodide",
+                "smiles": "CI",
+                "inchiKey": "INQOMBQAUSQDDS-UHFFFAOYSA-N",
+                "ratio": "4.0",
+                "role": "c1 synthon",
+                "notes": null
+            }
+        ],
+        "c1 synthon": "methyl iodide",
+        "reactant_details": [
+            {
+                "name": "methyl (1S,2S,4aS,5S,8aR)-5-(acetoxymethyl)-2-hydroxy-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+                "smiles": "C(C)(=O)OC[C@@H]1[C@]2(CC[C@@H]([C@]([C@@H]2CCC1=C)(C(=O)OC)C)O)C",
+                "inchiKey": "SEYMWPJVLBQZCV-FZMWSMFESA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "methyl (1S,2S,4aS,5S,8aR)-5-(acetoxymethyl)-2-hydroxy-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+        "solvent_details": [
+            {
+                "name": "tetrahydrofuran",
+                "smiles": "C1CCCO1",
+                "inchiKey": "WYURNTSHIVDZCO-UHFFFAOYSA-N",
+                "ratio": "102",
+                "role": "solvent",
+                "notes": null
+            },
+            {
+                "name": "mineral oil",
+                "smiles": "*mineral oil",
+                "inchiKey": "404",
+                "ratio": null,
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "tetrahydrofuran",
+        "base_details": [
+            {
+                "name": "sodium hydride",
+                "smiles": "[H-].[Na+]",
+                "inchiKey": "BZKBCQXYZZXSCO-UHFFFAOYSA-N",
+                "ratio": "1.1",
+                "role": "base",
+                "notes": null
+            }
+        ],
+        "base": "sodium hydride",
+        "quench_details": [
+            {
+                "name": "ammonium chloride",
+                "smiles": "[Cl-].[NH4+]",
+                "inchiKey": "NLXLAEXVIDQMFP-UHFFFAOYSA-N",
+                "ratio": "234",
+                "role": "quench",
+                "notes": null,
+                "solvent": "ammonium chloride",
+                "concentration": "0",
+                "concentrationUnits": "mL"
+            }
+        ],
+        "quench": "ammonium chloride",
+        "building_block_details": [
+            {
+                "name": "carbon disulfide",
+                "smiles": "C(=S)=S",
+                "inchiKey": "QGJOPFRUJISHPQ-UHFFFAOYSA-N",
+                "ratio": "2.1",
+                "role": "building block",
+                "notes": null
+            }
+        ],
+        "building block": "carbon disulfide",
+        "product_details": [
+            {
+                "name": "WWARLXVILQHNCE-GDLXNQLUSA-L",
+                "smiles": "C(C)(=O)OC[C@@H]2[C@]1(CC[C@@H]([C@]([C@@H]1CCC2=C)(C(=O)[O-])C)OC(=S)S[Na])C",
+                "inchiKey": "WWARLXVILQHNCE-GDLXNQLUSA-L",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "WWARLXVILQHNCE-GDLXNQLUSA-L"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/84fdb7aa5444134e1188cd0cd2b391d9",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/84fdb7aa5444134e1188cd0cd2b391d9",
+        "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)C(=O)OCC1=CC=CC=C1)(C)C)C)OC)OC>C1CCCO1.[H-].[Al+3].[Li+].[H-].[H-].[H-]>C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)CO)(C)C)C)OC)OC",
+        "reaction_conditions": {
+            "time": "1098",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "0",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "92",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "Benzyl (4aS,9S,9aS)-7-isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluorene-9-carboxylate",
+                "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)C(=O)OCC1=CC=CC=C1)(C)C)C)OC)OC",
+                "inchiKey": "COEYIZSQUDOELR-GJPZQIGFSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "Benzyl (4aS,9S,9aS)-7-isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluorene-9-carboxylate",
+        "solvent_details": [
+            {
+                "name": "tetrahydrofuran",
+                "smiles": "C1CCCO1",
+                "inchiKey": "WYURNTSHIVDZCO-UHFFFAOYSA-N",
+                "ratio": "85.2",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "tetrahydrofuran",
+        "reducing_agent_details": [
+            {
+                "name": "lithium aluminum hydride",
+                "smiles": "[H-].[Al+3].[Li+].[H-].[H-].[H-]",
+                "inchiKey": "BJKLPLABXHXMIM-UHFFFAOYSA-N",
+                "ratio": "2.5",
+                "role": "reducing agent",
+                "notes": null
+            }
+        ],
+        "reducing agent": "lithium aluminum hydride",
+        "product_details": [
+            {
+                "name": "((4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluoren-9-yl)methanol",
+                "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)CO)(C)C)C)OC)OC",
+                "inchiKey": "DFZSTDHGQCBPBV-ZQQNNKCXSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "((4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluoren-9-yl)methanol"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/d4ead019feed7366aabaee1889dc682c",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/d4ead019feed7366aabaee1889dc682c",
+        "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)CO)(C)C)C)OC)OC>ClCCl.C(C)(=O)OI1(OC(C2=C1C=CC=C2)=O)(OC(C)=O)OC(C)=O>C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)C=O)(C)C)C)OC)OC",
+        "reaction_conditions": {
+            "time": "120",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "25",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "78",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "((4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluoren-9-yl)methanol",
+                "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)CO)(C)C)C)OC)OC",
+                "inchiKey": "DFZSTDHGQCBPBV-ZQQNNKCXSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "((4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluoren-9-yl)methanol",
+        "solvent_details": [
+            {
+                "name": "dichloromethane",
+                "smiles": "ClCCl",
+                "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+                "ratio": "62.3",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "dichloromethane",
+        "oxidizing_agent_details": [
+            {
+                "name": "3-Oxo-1,3-dihydro-1λ5,2-benziodoxole-1,1,1-triyl triacetate",
+                "smiles": "C(C)(=O)OI1(OC(C2=C1C=CC=C2)=O)(OC(C)=O)OC(C)=O",
+                "inchiKey": "NKLCNNUWBJBICK-UHFFFAOYSA-N",
+                "ratio": "1.2",
+                "role": "oxidizing agent",
+                "notes": null
+            }
+        ],
+        "oxidizing agent": "3-Oxo-1,3-dihydro-1λ5,2-benziodoxole-1,1,1-triyl triacetate",
+        "product_details": [
+            {
+                "name": "(4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluorene-9-carbaldehyde",
+                "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)C=O)(C)C)C)OC)OC",
+                "inchiKey": "SAHNXPRYBKFTTP-ZQQNNKCXSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "(4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluorene-9-carbaldehyde"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/9811687a8ec7e73ffbcd2832114cc666",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/9811687a8ec7e73ffbcd2832114cc666",
+        "smiles": "C(=O)O[C@@H]1C2=C(C(=C(C(=C2[C@]2(CCCC([C@H]12)(C)C)C)OC)OC)C(C)C)OC>C(Cl)(Cl)(Cl)[H].CO[H].C([O-])([O-])=O.[K+].[K+]>C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)O)(C)C)C)OC)OC",
+        "reaction_conditions": {
+            "time": "",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "25",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "73",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1021/jacsau.4c01276",
+            "year": "2025",
+            "date_added": "2025-02-14"
+        },
+        "reactant_details": [
+            {
+                "name": "((4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluorene-9-yl) formate",
+                "smiles": "C(=O)O[C@@H]1C2=C(C(=C(C(=C2[C@]2(CCCC([C@H]12)(C)C)C)OC)OC)C(C)C)OC",
+                "inchiKey": "FAVOOEKSBZPIAI-UNWVZKJWSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "((4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluorene-9-yl) formate",
+        "solvent_details": [
+            {
+                "name": "chloroform",
+                "smiles": "C(Cl)(Cl)(Cl)[H]",
+                "inchiKey": "HEDRZPFGACZZDS-UHFFFAOYSA-N",
+                "ratio": "29.8",
+                "role": "solvent",
+                "notes": null
+            },
+            {
+                "name": "methanol",
+                "smiles": "CO[H]",
+                "inchiKey": "OKKJLVBELUTLKV-UHFFFAOYSA-N",
+                "ratio": "59.3",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "chloroform",
+        "base_details": [
+            {
+                "name": "potassium carbonate",
+                "smiles": "C([O-])([O-])=O.[K+].[K+]",
+                "inchiKey": "BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+                "ratio": "1.5",
+                "role": "base",
+                "notes": null
+            }
+        ],
+        "base": "potassium carbonate",
+        "product_details": [
+            {
+                "name": "(4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluoren-9-ol",
+                "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)O)(C)C)C)OC)OC",
+                "inchiKey": "WWIHHHVBUQCFIY-QGCDCVKKSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "(4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluoren-9-ol"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/f6e516579e3dee39153683c0bf0ceb6d",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/f6e516579e3dee39153683c0bf0ceb6d",
+        "smiles": "ClCC(CO)(C)C>O.ClCCl.Cl[O-].[Na+].CC1(N(C(CCC1)(C)C)[O])C.[Br-].[Na+].C(O)([O-])=O.[Na+]>ClCC(C=O)(C)C",
+        "reaction_conditions": {
+            "time": "60",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "0",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "73",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1002/chem.202501394",
+            "year": "2025",
+            "date_added": "2025-06-30"
+        },
+        "reactant_details": [
+            {
+                "name": "3-chloro-2,2-dimethyl-1-propanol",
+                "smiles": "ClCC(CO)(C)C",
+                "inchiKey": "CAZPRAORHCOIHC-UHFFFAOYSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "3-chloro-2,2-dimethyl-1-propanol",
+        "solvent_details": [
+            {
+                "name": "water",
+                "smiles": "O",
+                "inchiKey": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+                "ratio": "2.8",
+                "role": "solvent",
+                "notes": null
+            },
+            {
+                "name": "dichloromethane",
+                "smiles": "ClCCl",
+                "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+                "ratio": "10.4",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "water",
+        "halogenation_reagent_details": [
+            {
+                "name": "sodium hypochlorite",
+                "smiles": "Cl[O-].[Na+]",
+                "inchiKey": "SUKJFIGYRHOWBL-UHFFFAOYSA-N",
+                "ratio": "1.1",
+                "role": "halogenation reagent",
+                "notes": null
+            }
+        ],
+        "halogenation reagent": "sodium hypochlorite",
+        "catalyst_details": [
+            {
+                "name": "(2,2,6,6-Tetramethyl-piperidin-1-yl)oxyl",
+                "smiles": "CC1(N(C(CCC1)(C)C)[O])C",
+                "inchiKey": "QYTDEUPAUMOIOP-UHFFFAOYSA-N",
+                "ratio": "0.05",
+                "role": "catalyst",
+                "notes": null
+            }
+        ],
+        "catalyst": "(2,2,6,6-Tetramethyl-piperidin-1-yl)oxyl",
+        "reagent_details": [
+            {
+                "name": "sodium bromide",
+                "smiles": "[Br-].[Na+]",
+                "inchiKey": "JHJLBTNAGRQEKS-UHFFFAOYSA-M",
+                "ratio": "0.1",
+                "role": "reagent",
+                "notes": null
+            }
+        ],
+        "reagent": "sodium bromide",
+        "base_details": [
+            {
+                "name": "sodium hydrogen carbonate",
+                "smiles": "C(O)([O-])=O.[Na+]",
+                "inchiKey": "UIIMBOGNXHQVGW-UHFFFAOYSA-M",
+                "ratio": "0.4",
+                "role": "base",
+                "notes": null,
+                "solvent": "sodium hydrogen carbonate",
+                "concentration": "0",
+                "concentrationUnits": "mmol"
+            }
+        ],
+        "base": "sodium hydrogen carbonate",
+        "product_details": [
+            {
+                "name": "3-Chloro-2,2-dimethylpropanal",
+                "smiles": "ClCC(C=O)(C)C",
+                "inchiKey": "ITSRYBRMKMEYHL-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "3-Chloro-2,2-dimethylpropanal"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/cae0019b1e953f5d281ab96fc2ea34e8",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/cae0019b1e953f5d281ab96fc2ea34e8",
+        "smiles": "C(C1=CC=CC=C1)N.ClCC(C=O)(C)C>ClCCl>ClCC(C=NCC1=CC=CC=C1)(C)C",
+        "reaction_conditions": {
+            "time": "960",
+            "time_unit": "minute",
+            "temperature": "20",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "20",
+            "temperature_end": "",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "99",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1002/chem.202501394",
+            "year": "2025",
+            "date_added": "2025-06-30"
+        },
+        "reactant_details": [
+            {
+                "name": "3-Chloro-2,2-dimethylpropanal",
+                "smiles": "ClCC(C=O)(C)C",
+                "inchiKey": "ITSRYBRMKMEYHL-UHFFFAOYSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "3-Chloro-2,2-dimethylpropanal",
+        "solvent_details": [
+            {
+                "name": "dichloromethane",
+                "smiles": "ClCCl",
+                "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+                "ratio": "28.3",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "dichloromethane",
+        "desiccant_details": [
+            {
+                "name": "Magnesium sulfate",
+                "smiles": "[Mg+2].[O-]S([O-])(=O)=O",
+                "inchiKey": "CSNNHWWHGAXBCP-UHFFFAOYSA-L",
+                "ratio": "2.0",
+                "role": "desiccant",
+                "notes": null
+            }
+        ],
+        "desiccant": "Magnesium sulfate",
+        "building_block_details": [
+            {
+                "name": "benzylamine",
+                "smiles": "C(C1=CC=CC=C1)N",
+                "inchiKey": "WGQKYBSKWIADBV-UHFFFAOYSA-N",
+                "ratio": "0.9",
+                "role": "building block",
+                "notes": null
+            }
+        ],
+        "building block": "benzylamine",
+        "product_details": [
+            {
+                "name": "N-(3-Chloro-2,2-dimethylpropylidene)-1-phenylmethanamine",
+                "smiles": "ClCC(C=NCC1=CC=CC=C1)(C)C",
+                "inchiKey": "PQLXHKQHGBOODJ-UHFFFAOYSA-N",
+                "ratio": "0.9",
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "N-(3-Chloro-2,2-dimethylpropylidene)-1-phenylmethanamine"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/3bd1f5728a27081e3ad428e013b59cf9",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/3bd1f5728a27081e3ad428e013b59cf9",
+        "smiles": "C(#C)[Si](C)(C)C.ClCC(C=NCC1=CC=CC=C1)(C)C>C1CCCO1.[I-].[Mg+2].[I-].C1/C=C\\CC/C=C\\C1.C1/C=C\\CC/C=C\\C1.[Cl].[Cl].[Ir].[Ir]>C(C1=CC=CC=C1)NC(C#C[Si](C)(C)C)C(CCl)(C)C",
+        "reaction_conditions": {
+            "time": "1200",
+            "time_unit": "minute",
+            "temperature": "20",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "20",
+            "temperature_end": "",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "-1",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1002/chem.202501394",
+            "year": "2025",
+            "date_added": "2025-06-30"
+        },
+        "reactant_details": [
+            {
+                "name": "N-(3-Chloro-2,2-dimethylpropylidene)-1-phenylmethanamine",
+                "smiles": "ClCC(C=NCC1=CC=CC=C1)(C)C",
+                "inchiKey": "PQLXHKQHGBOODJ-UHFFFAOYSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "N-(3-Chloro-2,2-dimethylpropylidene)-1-phenylmethanamine",
+        "solvent_details": [
+            {
+                "name": "tetrahydrofuran",
+                "smiles": "C1CCCO1",
+                "inchiKey": "WYURNTSHIVDZCO-UHFFFAOYSA-N",
+                "ratio": "15.9",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "tetrahydrofuran",
+        "building_block_details": [
+            {
+                "name": "ethynyltrimethylsilane",
+                "smiles": "C(#C)[Si](C)(C)C",
+                "inchiKey": "CWMFRHBXRUITQE-UHFFFAOYSA-N",
+                "ratio": "1.5",
+                "role": "building block",
+                "notes": null
+            }
+        ],
+        "building block": "ethynyltrimethylsilane",
+        "halogenation_reagent_details": [
+            {
+                "name": "magnesium iodide",
+                "smiles": "[I-].[Mg+2].[I-]",
+                "inchiKey": "BLQJIBCZHWBKSL-UHFFFAOYSA-L",
+                "ratio": "0.03",
+                "role": "halogenation reagent",
+                "notes": null
+            }
+        ],
+        "halogenation reagent": "magnesium iodide",
+        "catalyst_details": [
+            {
+                "name": "bis(1,5-cyclooctadiene) diiridium dichloride",
+                "smiles": "C1/C=C\\CC/C=C\\C1.C1/C=C\\CC/C=C\\C1.[Cl].[Cl].[Ir].[Ir]",
+                "inchiKey": "SHZHQWGWORCBJK-MIXQCLKLSA-N",
+                "ratio": null,
+                "role": "catalyst",
+                "notes": null
+            }
+        ],
+        "catalyst": "bis(1,5-cyclooctadiene) diiridium dichloride",
+        "product_details": [
+            {
+                "name": "N-Benzyl-1-(trimethylsilyl)-5-chloro-4,4-dimethylpent-1-yn-3-amine",
+                "smiles": "C(C1=CC=CC=C1)NC(C#C[Si](C)(C)C)C(CCl)(C)C",
+                "inchiKey": "GPKKDBIXUNDEHB-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "N-Benzyl-1-(trimethylsilyl)-5-chloro-4,4-dimethylpent-1-yn-3-amine"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/a7f94177d7262e0c7952cc5d450a992d",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/a7f94177d7262e0c7952cc5d450a992d",
+        "smiles": "C(C1=CC=CC=C1)NC(C#C[Si](C)(C)C)C(CCl)(C)C>CO[H].C([O-])([O-])=O.[K+].[K+]>C(C1=CC=CC=C1)NC(C#C)C(CCl)(C)C",
+        "reaction_conditions": {
+            "time": "150",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "25",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "95",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1002/chem.202501394",
+            "year": "2025",
+            "date_added": "2025-06-30"
+        },
+        "reactant_details": [
+            {
+                "name": "N-Benzyl-1-(trimethylsilyl)-5-chloro-4,4-dimethylpent-1-yn-3-amine",
+                "smiles": "C(C1=CC=CC=C1)NC(C#C[Si](C)(C)C)C(CCl)(C)C",
+                "inchiKey": "GPKKDBIXUNDEHB-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "N-Benzyl-1-(trimethylsilyl)-5-chloro-4,4-dimethylpent-1-yn-3-amine",
+        "solvent_details": [
+            {
+                "name": "methanol",
+                "smiles": "CO[H]",
+                "inchiKey": "OKKJLVBELUTLKV-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "methanol",
+        "base_details": [
+            {
+                "name": "potassium carbonate",
+                "smiles": "C([O-])([O-])=O.[K+].[K+]",
+                "inchiKey": "BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+                "ratio": null,
+                "role": "base",
+                "notes": null
+            }
+        ],
+        "base": "potassium carbonate",
+        "product_details": [
+            {
+                "name": "N-Benzyl-5-chloro-4,4-dimethylpent-1-yn-3-amine",
+                "smiles": "C(C1=CC=CC=C1)NC(C#C)C(CCl)(C)C",
+                "inchiKey": "YNNAEKNHQLCVHM-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "N-Benzyl-5-chloro-4,4-dimethylpent-1-yn-3-amine"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/3b174e861f3c8a26d8e9bbfc944ab7e1",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/3b174e861f3c8a26d8e9bbfc944ab7e1",
+        "smiles": "C(C1=CC=CC=C1)(=O)Cl.C(C1=CC=CC=C1)NC(C#C)C(CCl)(C)C>C1(=CC=CC=C1)C>ClCC(C)(C)C=1N=C(OC1C)C1=CC=CC=C1",
+        "reaction_conditions": {
+            "time": "30",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "150",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "81",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1002/chem.202501394",
+            "year": "2025",
+            "date_added": "2025-06-30"
+        },
+        "reactant_details": [
+            {
+                "name": "N-Benzyl-5-chloro-4,4-dimethylpent-1-yn-3-amine",
+                "smiles": "C(C1=CC=CC=C1)NC(C#C)C(CCl)(C)C",
+                "inchiKey": "YNNAEKNHQLCVHM-UHFFFAOYSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "N-Benzyl-5-chloro-4,4-dimethylpent-1-yn-3-amine",
+        "solvent_details": [
+            {
+                "name": "toluene",
+                "smiles": "C1(=CC=CC=C1)C",
+                "inchiKey": "YXFVVABEGXRONW-UHFFFAOYSA-N",
+                "ratio": "4.5",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "toluene",
+        "building_block_details": [
+            {
+                "name": "benzoyl chloride",
+                "smiles": "C(C1=CC=CC=C1)(=O)Cl",
+                "inchiKey": "PASDCCFISLVPSO-UHFFFAOYSA-N",
+                "ratio": "1.3",
+                "role": "building block",
+                "notes": null
+            }
+        ],
+        "building block": "benzoyl chloride",
+        "product_details": [
+            {
+                "name": "4-(1-Chloro-2-methylpropan-2-yl)-5-methyl-2-phenyloxazole",
+                "smiles": "ClCC(C)(C)C=1N=C(OC1C)C1=CC=CC=C1",
+                "inchiKey": "FERUMYNWBPUDQU-UHFFFAOYSA-N",
+                "ratio": "0.8",
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "4-(1-Chloro-2-methylpropan-2-yl)-5-methyl-2-phenyloxazole"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/ecde17ea89c1f7e363c22152ea0fe36d",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/ecde17ea89c1f7e363c22152ea0fe36d",
+        "smiles": "ClCC(C)(C)C=1N=C(OC1C)C1=CC=CC=C1>c3c(P(c1ccccc1)c2ccccc2)cccc3.CN1CCCC1>CC1=C(N=C(O1)C1=CC=CC=C1)C=C(C)C",
+        "reaction_conditions": {
+            "time": "180",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "220",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "74",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1002/chem.202501394",
+            "year": "2025",
+            "date_added": "2025-06-30"
+        },
+        "reactant_details": [
+            {
+                "name": "4-(1-Chloro-2-methylpropan-2-yl)-5-methyl-2-phenyloxazole",
+                "smiles": "ClCC(C)(C)C=1N=C(OC1C)C1=CC=CC=C1",
+                "inchiKey": "FERUMYNWBPUDQU-UHFFFAOYSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "4-(1-Chloro-2-methylpropan-2-yl)-5-methyl-2-phenyloxazole",
+        "reagent_details": [
+            {
+                "name": "triphenylphosphine",
+                "smiles": "c3c(P(c1ccccc1)c2ccccc2)cccc3",
+                "inchiKey": "RIOQSEWOXXDEQQ-UHFFFAOYSA-N",
+                "ratio": "0.2",
+                "role": "reagent",
+                "notes": null
+            }
+        ],
+        "reagent": "triphenylphosphine",
+        "non-nucleophilic_base_details": [
+            {
+                "name": "N-methyl pyrrolidine",
+                "smiles": "CN1CCCC1",
+                "inchiKey": "AVFZOVWCLRSYKC-UHFFFAOYSA-N",
+                "ratio": "11.7",
+                "role": "non-nucleophilic base",
+                "notes": null
+            }
+        ],
+        "non-nucleophilic base": "N-methyl pyrrolidine",
+        "product_details": [
+            {
+                "name": "5-methyl-4-(2-methylprop-1-en-1-yl)-2-phenyloxazole",
+                "smiles": "CC1=C(N=C(O1)C1=CC=CC=C1)C=C(C)C",
+                "inchiKey": "IVOAETZIEGTDKQ-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "5-methyl-4-(2-methylprop-1-en-1-yl)-2-phenyloxazole"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/a50d71f1115b749047cf4161c4be65cc",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/a50d71f1115b749047cf4161c4be65cc",
+        "smiles": "CI.COC=1C=C(C=CC1OC)CCC(=O)Cl.C(C1=CC=CC=C1)NC(C#C)C(CCl)(C)C>CC#N.N(C)(C)C=O.C(=O)([O-])[O-].[Cs+].[Cs+]>COC=1C=C(CCC=2OC(=C(N2)C=C(C)C)C)C=CC1OC",
+        "reaction_conditions": {
+            "time": "150",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "220",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "75",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1002/chem.202501394",
+            "year": "2025",
+            "date_added": "2025-06-30"
+        },
+        "c1_synthon_details": [
+            {
+                "name": "methyl iodide",
+                "smiles": "CI",
+                "inchiKey": "INQOMBQAUSQDDS-UHFFFAOYSA-N",
+                "ratio": "2.0",
+                "role": "c1 synthon",
+                "notes": null
+            }
+        ],
+        "c1 synthon": "methyl iodide",
+        "reactant_details": [
+            {
+                "name": "3-(3,4-dimethoxyphenyl)propionyl chloride",
+                "smiles": "COC=1C=C(C=CC1OC)CCC(=O)Cl",
+                "inchiKey": "SUCHFQLAEJRLOS-UHFFFAOYSA-N",
+                "ratio": "1.1",
+                "role": "reactant",
+                "notes": null
+            },
+            {
+                "name": "N-Benzyl-5-chloro-4,4-dimethylpent-1-yn-3-amine",
+                "smiles": "C(C1=CC=CC=C1)NC(C#C)C(CCl)(C)C",
+                "inchiKey": "YNNAEKNHQLCVHM-UHFFFAOYSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "3-(3,4-dimethoxyphenyl)propionyl chloride",
+        "solvent_details": [
+            {
+                "name": "acetonitrile",
+                "smiles": "CC#N",
+                "inchiKey": "WEVYAHXRMPXWCK-UHFFFAOYSA-N",
+                "ratio": "17.4",
+                "role": "solvent",
+                "notes": null
+            },
+            {
+                "name": "dimethylformamide",
+                "smiles": "N(C)(C)C=O",
+                "inchiKey": "ZMXDDKWLCZADIW-UHFFFAOYSA-N",
+                "ratio": "47.2",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "acetonitrile",
+        "base_details": [
+            {
+                "name": "caesium carbonate",
+                "smiles": "C(=O)([O-])[O-].[Cs+].[Cs+]",
+                "inchiKey": "FJDQFPXHSGXQBY-UHFFFAOYSA-L",
+                "ratio": "2.0",
+                "role": "base",
+                "notes": null
+            }
+        ],
+        "base": "caesium carbonate",
+        "product_details": [
+            {
+                "name": "2-(3,4-Dimethoxyphenethyl)-5-methyl-4-(2-methylprop-1-en-1-yl)oxazole",
+                "smiles": "COC=1C=C(CCC=2OC(=C(N2)C=C(C)C)C)C=CC1OC",
+                "inchiKey": "NTGWQXSOLMCQOX-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "2-(3,4-Dimethoxyphenethyl)-5-methyl-4-(2-methylprop-1-en-1-yl)oxazole"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/763baa7ace15b36594e114c1959bc720",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/763baa7ace15b36594e114c1959bc720",
+        "smiles": "COC=1C=C(C=CC1OC)CCC(=O)O>ClCCl.C(C(=O)Cl)(=O)Cl>COC=1C=C(C=CC1OC)CCC(=O)Cl",
+        "reaction_conditions": {
+            "time": "960",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "0",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "99.79",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1002/chem.202501394",
+            "year": "2025",
+            "date_added": "2025-06-30"
+        },
+        "reactant_details": [
+            {
+                "name": "3-(3,4-dimethoxy-phenyl)-propionic acid",
+                "smiles": "COC=1C=C(C=CC1OC)CCC(=O)O",
+                "inchiKey": "LHHKQWQTBCTDQM-UHFFFAOYSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "3-(3,4-dimethoxy-phenyl)-propionic acid",
+        "solvent_details": [
+            {
+                "name": "dichloromethane",
+                "smiles": "ClCCl",
+                "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+                "ratio": "98.8",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "dichloromethane",
+        "reagent_details": [
+            {
+                "name": "Oxalyl chloride",
+                "smiles": "C(C(=O)Cl)(=O)Cl",
+                "inchiKey": "CTSLXHKWHWQRSH-UHFFFAOYSA-N",
+                "ratio": "1.2",
+                "role": "reagent",
+                "notes": null
+            }
+        ],
+        "reagent": "Oxalyl chloride",
+        "product_details": [
+            {
+                "name": "3-(3,4-dimethoxyphenyl)propionyl chloride",
+                "smiles": "COC=1C=C(C=CC1OC)CCC(=O)Cl",
+                "inchiKey": "SUCHFQLAEJRLOS-UHFFFAOYSA-N",
+                "ratio": "1.0",
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "3-(3,4-dimethoxyphenyl)propionyl chloride"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/5b06a2d15c7e123035bc87d5f6700c2b",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/5b06a2d15c7e123035bc87d5f6700c2b",
+        "smiles": "COC=1C=C(CCC=2OC(=C(N2)C=C(C)C)C)C=CC1OC>O.C1(=NC(=CC=C1)C)C.O1CCOCC1.I(=O)(=O)(=O)[O-].[Na+].[Os](=O)(=O)(=O)=O>COC=1C=C(CCC=2OC(=C(N2)C=O)C)C=CC1OC",
+        "reaction_conditions": {
+            "time": "125",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "25",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "-1",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1002/chem.202501394",
+            "year": "2025",
+            "date_added": "2025-06-30"
+        },
+        "reactant_details": [
+            {
+                "name": "2-(3,4-Dimethoxyphenethyl)-5-methyl-4-(2-methylprop-1-en-1-yl)oxazole",
+                "smiles": "COC=1C=C(CCC=2OC(=C(N2)C=C(C)C)C)C=CC1OC",
+                "inchiKey": "NTGWQXSOLMCQOX-UHFFFAOYSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "2-(3,4-Dimethoxyphenethyl)-5-methyl-4-(2-methylprop-1-en-1-yl)oxazole",
+        "quench_details": [
+            {
+                "name": "water",
+                "smiles": "O",
+                "inchiKey": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "quench",
+                "notes": null
+            }
+        ],
+        "quench": "water",
+        "non-nucleophilic_base_details": [
+            {
+                "name": "2,6-lutidine",
+                "smiles": "C1(=NC(=CC=C1)C)C",
+                "inchiKey": "OISVCGZHLKNMSJ-UHFFFAOYSA-N",
+                "ratio": "2.0",
+                "role": "non-nucleophilic base",
+                "notes": null
+            }
+        ],
+        "non-nucleophilic base": "2,6-lutidine",
+        "solvent_details": [
+            {
+                "name": "dioxane",
+                "smiles": "O1CCOCC1",
+                "inchiKey": "RYHBNJHYFVUHQT-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "dioxane",
+        "oxidizing_agent_details": [
+            {
+                "name": "sodium periodate",
+                "smiles": "I(=O)(=O)(=O)[O-].[Na+]",
+                "inchiKey": "JQWHASGSAFIOCM-UHFFFAOYSA-M",
+                "ratio": "4.0",
+                "role": "oxidizing agent",
+                "notes": null
+            },
+            {
+                "name": "osmium tetroxide",
+                "smiles": "[Os](=O)(=O)(=O)=O",
+                "inchiKey": "VUVGYHUDAICLFK-UHFFFAOYSA-N",
+                "ratio": "0.02",
+                "role": "oxidizing agent",
+                "notes": null,
+                "solvent": "osmium tetroxide",
+                "concentration": "2.5",
+                "concentrationUnits": "mmol"
+            }
+        ],
+        "oxidizing agent": "sodium periodate",
+        "product_details": [
+            {
+                "name": "2-(3,4-Dimethoxyphenethyl)-5-methyloxazole-4-carbaldehyde",
+                "smiles": "COC=1C=C(CCC=2OC(=C(N2)C=O)C)C=CC1OC",
+                "inchiKey": "SEASGZKSHBMATP-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "2-(3,4-Dimethoxyphenethyl)-5-methyloxazole-4-carbaldehyde"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/977e8416404e644b3dfd8fe6cbb95807",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/977e8416404e644b3dfd8fe6cbb95807",
+        "smiles": "COC=1C=C(CCC=2OC(=C(N2)C=O)C)C=CC1OC>C1=CC=CC=C1.ClC=1C(C(=C(C(C1Cl)=O)C#N)C#N)=O>COC=1C=C(/C=C/C=2OC(=C(N2)C=O)C)C=CC1OC",
+        "reaction_conditions": {
+            "time": "1200",
+            "time_unit": "minute",
+            "temperature": "20",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "20",
+            "temperature_end": "",
+            "reflux": "1"
+        },
+        "yield": {
+            "amount": "88",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1002/chem.202501394",
+            "year": "2025",
+            "date_added": "2025-06-30"
+        },
+        "reactant_details": [
+            {
+                "name": "2-(3,4-Dimethoxyphenethyl)-5-methyloxazole-4-carbaldehyde",
+                "smiles": "COC=1C=C(CCC=2OC(=C(N2)C=O)C)C=CC1OC",
+                "inchiKey": "SEASGZKSHBMATP-UHFFFAOYSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "2-(3,4-Dimethoxyphenethyl)-5-methyloxazole-4-carbaldehyde",
+        "solvent_details": [
+            {
+                "name": "benzene",
+                "smiles": "C1=CC=CC=C1",
+                "inchiKey": "UHOVQNZJYSORNB-UHFFFAOYSA-N",
+                "ratio": "118",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "benzene",
+        "oxidizing_agent_details": [
+            {
+                "name": "2,3-Dichloro-5,6-dicyano-1,4-benzoquinone",
+                "smiles": "ClC=1C(C(=C(C(C1Cl)=O)C#N)C#N)=O",
+                "inchiKey": "HZNVUJQVZSTENZ-UHFFFAOYSA-N",
+                "ratio": "1.3",
+                "role": "oxidizing agent",
+                "notes": null
+            }
+        ],
+        "oxidizing agent": "2,3-Dichloro-5,6-dicyano-1,4-benzoquinone",
+        "product_details": [
+            {
+                "name": "(E)-2-(3,4-Dimethoxystyryl)-5-methyloxazole-4-carbaldehyde",
+                "smiles": "COC=1C=C(/C=C/C=2OC(=C(N2)C=O)C)C=CC1OC",
+                "inchiKey": "JGUYNRKURGUNCB-FNORWQNLSA-N",
+                "ratio": "0.9",
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "(E)-2-(3,4-Dimethoxystyryl)-5-methyloxazole-4-carbaldehyde"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/66696318ada5616059ceb13bfdf2d663",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/66696318ada5616059ceb13bfdf2d663",
+        "smiles": "C(C)(=O)Cl.C(C1=CC=CC=C1)NC(C#C)C(CCl)(C)C>CC#N>CC1=C(N=C(O1)C)C=C(C)C",
+        "reaction_conditions": {
+            "time": "300",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "220",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "-1",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1002/chem.202501394",
+            "year": "2025",
+            "date_added": "2025-06-30"
+        },
+        "c2_synthon_details": [
+            {
+                "name": "acetyl chloride",
+                "smiles": "C(C)(=O)Cl",
+                "inchiKey": "WETWJCDKMRHUPV-UHFFFAOYSA-N",
+                "ratio": "1.0",
+                "role": "c2 synthon",
+                "notes": null
+            }
+        ],
+        "c2 synthon": "acetyl chloride",
+        "reactant_details": [
+            {
+                "name": "N-Benzyl-5-chloro-4,4-dimethylpent-1-yn-3-amine",
+                "smiles": "C(C1=CC=CC=C1)NC(C#C)C(CCl)(C)C",
+                "inchiKey": "YNNAEKNHQLCVHM-UHFFFAOYSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "N-Benzyl-5-chloro-4,4-dimethylpent-1-yn-3-amine",
+        "solvent_details": [
+            {
+                "name": "acetonitrile",
+                "smiles": "CC#N",
+                "inchiKey": "WEVYAHXRMPXWCK-UHFFFAOYSA-N",
+                "ratio": "31.8",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "acetonitrile",
+        "product_details": [
+            {
+                "name": "5-methyl-4-(2-methylprop-1-en-1-yl)-2-methyloxazole",
+                "smiles": "CC1=C(N=C(O1)C)C=C(C)C",
+                "inchiKey": "HIYZWJBKQOJWFZ-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "5-methyl-4-(2-methylprop-1-en-1-yl)-2-methyloxazole"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/45b7fad93633f11f36c27b50d10cf356",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/45b7fad93633f11f36c27b50d10cf356",
+        "smiles": "CC1=C(N=C(O1)C)C=C(C)C>O.C1(=NC(=CC=C1)C)C.O1CCOCC1.I(=O)(=O)(=O)[O-].[Na+].[Os](=O)(=O)(=O)=O>CN1COC(=C1C=O)C",
+        "reaction_conditions": {
+            "time": "125",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "25",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "-1",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1002/chem.202501394",
+            "year": "2025",
+            "date_added": "2025-06-30"
+        },
+        "reactant_details": [
+            {
+                "name": "5-methyl-4-(2-methylprop-1-en-1-yl)-2-methyloxazole",
+                "smiles": "CC1=C(N=C(O1)C)C=C(C)C",
+                "inchiKey": "HIYZWJBKQOJWFZ-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "5-methyl-4-(2-methylprop-1-en-1-yl)-2-methyloxazole",
+        "solvent_details": [
+            {
+                "name": "water",
+                "smiles": "O",
+                "inchiKey": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "solvent",
+                "notes": null
+            },
+            {
+                "name": "dioxane",
+                "smiles": "O1CCOCC1",
+                "inchiKey": "RYHBNJHYFVUHQT-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "water",
+        "non-nucleophilic_base_details": [
+            {
+                "name": "2,6-lutidine",
+                "smiles": "C1(=NC(=CC=C1)C)C",
+                "inchiKey": "OISVCGZHLKNMSJ-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "non-nucleophilic base",
+                "notes": null
+            }
+        ],
+        "non-nucleophilic base": "2,6-lutidine",
+        "oxidizing_agent_details": [
+            {
+                "name": "sodium periodate",
+                "smiles": "I(=O)(=O)(=O)[O-].[Na+]",
+                "inchiKey": "JQWHASGSAFIOCM-UHFFFAOYSA-M",
+                "ratio": null,
+                "role": "oxidizing agent",
+                "notes": null
+            },
+            {
+                "name": "osmium tetroxide",
+                "smiles": "[Os](=O)(=O)(=O)=O",
+                "inchiKey": "VUVGYHUDAICLFK-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "oxidizing agent",
+                "notes": null,
+                "solvent": "osmium tetroxide",
+                "concentration": "2.5",
+                "concentrationUnits": "μmol"
+            }
+        ],
+        "oxidizing agent": "sodium periodate",
+        "product_details": [
+            {
+                "name": "3,5-dimethyl-oxazole-4-carbaldehyde",
+                "smiles": "CN1COC(=C1C=O)C",
+                "inchiKey": "CBZUYLMIUIVWMQ-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "3,5-dimethyl-oxazole-4-carbaldehyde"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/681485d465c87739082ebe7198e8b49b",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/681485d465c87739082ebe7198e8b49b",
+        "smiles": "CN1COC(=C1C=O)C>C1CCCO1.[Na+].[BH4-].C(C)(C)O>CC=1OC(=C(N1)CO)C",
+        "reaction_conditions": {
+            "time": "20",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "0",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "36",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1002/chem.202501394",
+            "year": "2025",
+            "date_added": "2025-06-30"
+        },
+        "reactant_details": [
+            {
+                "name": "3,5-dimethyl-oxazole-4-carbaldehyde",
+                "smiles": "CN1COC(=C1C=O)C",
+                "inchiKey": "CBZUYLMIUIVWMQ-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "3,5-dimethyl-oxazole-4-carbaldehyde",
+        "solvent_details": [
+            {
+                "name": "tetrahydrofuran",
+                "smiles": "C1CCCO1",
+                "inchiKey": "WYURNTSHIVDZCO-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "solvent",
+                "notes": null
+            },
+            {
+                "name": "isopropyl alcohol",
+                "smiles": "C(C)(C)O",
+                "inchiKey": "KFZMGEQAYNKOFK-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "tetrahydrofuran",
+        "reducing_agent_details": [
+            {
+                "name": "sodium borohydride",
+                "smiles": "[Na+].[BH4-]",
+                "inchiKey": "YOQDYZUWIQVZSF-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "reducing agent",
+                "notes": null
+            }
+        ],
+        "reducing agent": "sodium borohydride",
+        "product_details": [
+            {
+                "name": "(2,5-Dimethyloxazol-4-yl)methanol",
+                "smiles": "CC=1OC(=C(N1)CO)C",
+                "inchiKey": "YURZVIJMKNBRIC-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "(2,5-Dimethyloxazol-4-yl)methanol"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/2366f7f8d49af1d4f89bb7d02b4a882e",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/2366f7f8d49af1d4f89bb7d02b4a882e",
+        "smiles": "COC=1C=C(/C=C/C=2OC(=C(N2)C=O)C)C=CC1OC.CC=1OC(=C(N1)CO)C>O.C1CCCO1.C(C)(C)[N-]C(C)C.[Li+].[Cl-].[NH4+]>COC=1C=C(/C=C/C=2OC(=C(N2)C(CC=2OC(=C(N2)CO)C)O)C)C=CC1OC",
+        "reaction_conditions": {
+            "time": "330",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "-78",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "51",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1002/chem.202501394",
+            "year": "2025",
+            "date_added": "2025-06-30"
+        },
+        "reactant_details": [
+            {
+                "name": "(E)-2-(3,4-Dimethoxystyryl)-5-methyloxazole-4-carbaldehyde",
+                "smiles": "COC=1C=C(/C=C/C=2OC(=C(N2)C=O)C)C=CC1OC",
+                "inchiKey": "JGUYNRKURGUNCB-FNORWQNLSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            },
+            {
+                "name": "(2,5-Dimethyloxazol-4-yl)methanol",
+                "smiles": "CC=1OC(=C(N1)CO)C",
+                "inchiKey": "YURZVIJMKNBRIC-UHFFFAOYSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "(E)-2-(3,4-Dimethoxystyryl)-5-methyloxazole-4-carbaldehyde",
+        "quench_details": [
+            {
+                "name": "water",
+                "smiles": "O",
+                "inchiKey": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+                "ratio": "216",
+                "role": "quench",
+                "notes": null
+            },
+            {
+                "name": "ammonium chloride",
+                "smiles": "[Cl-].[NH4+]",
+                "inchiKey": "NLXLAEXVIDQMFP-UHFFFAOYSA-N",
+                "ratio": "333",
+                "role": "quench",
+                "notes": null,
+                "solvent": "ammonium chloride",
+                "concentration": "0",
+                "concentrationUnits": "mL"
+            }
+        ],
+        "quench": "water",
+        "solvent_details": [
+            {
+                "name": "tetrahydrofuran",
+                "smiles": "C1CCCO1",
+                "inchiKey": "WYURNTSHIVDZCO-UHFFFAOYSA-N",
+                "ratio": "116",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "tetrahydrofuran",
+        "non-nucleophilic_base_details": [
+            {
+                "name": "lithium diisopropylamide",
+                "smiles": "C(C)(C)[N-]C(C)C.[Li+]",
+                "inchiKey": "ZCSHNCUQKCANBX-UHFFFAOYSA-N",
+                "ratio": "2.0",
+                "role": "non-nucleophilic base",
+                "notes": null,
+                "solvent": "lithium diisopropylamide",
+                "concentration": "0",
+                "concentrationUnits": "mmol"
+            }
+        ],
+        "non-nucleophilic base": "lithium diisopropylamide",
+        "product_details": [
+            {
+                "name": "(E)-1-(2-(3,4-Dimethoxystyryl)-5-methyloxazol-4-yl)-2-(4-(hydroxymethyl)-5-methyloxazol-2-yl)ethanol",
+                "smiles": "COC=1C=C(/C=C/C=2OC(=C(N2)C(CC=2OC(=C(N2)CO)C)O)C)C=CC1OC",
+                "inchiKey": "DNMYGXJGHDNZOO-SOFGYWHQSA-N",
+                "ratio": "0.5",
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "(E)-1-(2-(3,4-Dimethoxystyryl)-5-methyloxazol-4-yl)-2-(4-(hydroxymethyl)-5-methyloxazol-2-yl)ethanol"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/dff0d9a3cdb5113775436770b05fdf84",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/dff0d9a3cdb5113775436770b05fdf84",
+        "smiles": "C=CC(C=C)O>ClCCl.C1CCC2=NCCCN2CC1.ClC(C#N)(Cl)Cl>C=CC(C=C)OC(C(F)(F)F)=N",
+        "reaction_conditions": {
+            "time": "120",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "0",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "-1",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1002/chem.202501394",
+            "year": "2025",
+            "date_added": "2025-06-30"
+        },
+        "reactant_details": [
+            {
+                "name": "1,4-pentadien-3-ol",
+                "smiles": "C=CC(C=C)O",
+                "inchiKey": "ICMWSAALRSINTC-UHFFFAOYSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "1,4-pentadien-3-ol",
+        "solvent_details": [
+            {
+                "name": "dichloromethane",
+                "smiles": "ClCCl",
+                "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+                "ratio": "39.1",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "dichloromethane",
+        "non-nucleophilic_base_details": [
+            {
+                "name": "1,8-Diazabicyclo[5.4.0]undec-7-ene",
+                "smiles": "C1CCC2=NCCCN2CC1",
+                "inchiKey": "GQHTUMJGOHRCHB-UHFFFAOYSA-N",
+                "ratio": "0.2",
+                "role": "non-nucleophilic base",
+                "notes": null
+            }
+        ],
+        "non-nucleophilic base": "1,8-Diazabicyclo[5.4.0]undec-7-ene",
+        "reagent_details": [
+            {
+                "name": "trichloroacetonitrile",
+                "smiles": "ClC(C#N)(Cl)Cl",
+                "inchiKey": "DRUIESSIVFYOMK-UHFFFAOYSA-N",
+                "ratio": "1.7",
+                "role": "reagent",
+                "notes": null
+            }
+        ],
+        "reagent": "trichloroacetonitrile",
+        "product_details": [
+            {
+                "name": "PVMXUECQAZQFSD-UHFFFAOYSA-N",
+                "smiles": "C=CC(C=C)OC(C(F)(F)F)=N",
+                "inchiKey": "PVMXUECQAZQFSD-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "PVMXUECQAZQFSD-UHFFFAOYSA-N"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/4927ceb3640959c5774bcedc585964cc",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/4927ceb3640959c5774bcedc585964cc",
+        "smiles": "C=CC(C=C)OC(C(F)(F)F)=N>C1(=CC=CC=C1)C.C([O-])([O-])=O.[K+].[K+]>ClC(C(=O)NC\\C=C\\C=C)(Cl)Cl",
+        "reaction_conditions": {
+            "time": "360",
+            "time_unit": "minute",
+            "temperature": "20",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "20",
+            "temperature_end": "",
+            "reflux": "1"
+        },
+        "yield": {
+            "amount": "59",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1002/chem.202501394",
+            "year": "2025",
+            "date_added": "2025-06-30"
+        },
+        "reactant_details": [
+            {
+                "name": "PVMXUECQAZQFSD-UHFFFAOYSA-N",
+                "smiles": "C=CC(C=C)OC(C(F)(F)F)=N",
+                "inchiKey": "PVMXUECQAZQFSD-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "PVMXUECQAZQFSD-UHFFFAOYSA-N",
+        "solvent_details": [
+            {
+                "name": "toluene",
+                "smiles": "C1(=CC=CC=C1)C",
+                "inchiKey": "YXFVVABEGXRONW-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "toluene",
+        "base_details": [
+            {
+                "name": "potassium carbonate",
+                "smiles": "C([O-])([O-])=O.[K+].[K+]",
+                "inchiKey": "BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+                "ratio": null,
+                "role": "base",
+                "notes": null
+            }
+        ],
+        "base": "potassium carbonate",
+        "product_details": [
+            {
+                "name": "(E)-2,2,2-Trichloro-N-(penta-2,4-dien-1-yl)acetamide",
+                "smiles": "ClC(C(=O)NC\\C=C\\C=C)(Cl)Cl",
+                "inchiKey": "NSWPENOUKFFHHW-ONEGZZNKSA-N",
+                "ratio": null,
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "(E)-2,2,2-Trichloro-N-(penta-2,4-dien-1-yl)acetamide"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/eb77251a6efb6174b098a7e3fb4b9e08",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/eb77251a6efb6174b098a7e3fb4b9e08",
+        "smiles": "ClC(C(=O)NC\\C=C\\C=C)(Cl)Cl>[OH-].[Na+]>C(\\C=C\\C=C)N",
+        "reaction_conditions": {
+            "time": "840",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "25",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "93",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1002/chem.202501394",
+            "year": "2025",
+            "date_added": "2025-06-30"
+        },
+        "reactant_details": [
+            {
+                "name": "(E)-2,2,2-Trichloro-N-(penta-2,4-dien-1-yl)acetamide",
+                "smiles": "ClC(C(=O)NC\\C=C\\C=C)(Cl)Cl",
+                "inchiKey": "NSWPENOUKFFHHW-ONEGZZNKSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "(E)-2,2,2-Trichloro-N-(penta-2,4-dien-1-yl)acetamide",
+        "base_details": [
+            {
+                "name": "sodium hydroxide",
+                "smiles": "[OH-].[Na+]",
+                "inchiKey": "HEMHJVSKTPXQMS-UHFFFAOYSA-M",
+                "ratio": "2.1",
+                "role": "base",
+                "notes": null
+            }
+        ],
+        "base": "sodium hydroxide",
+        "product_details": [
+            {
+                "name": "(E)-Penta-2,4-dien-1-amine",
+                "smiles": "C(\\C=C\\C=C)N",
+                "inchiKey": "HSFHMJJDUVEWRQ-ONEGZZNKSA-N",
+                "ratio": "0.9",
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "(E)-Penta-2,4-dien-1-amine"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/00c2ea761852f5122988b7a8593646a4",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/00c2ea761852f5122988b7a8593646a4",
+        "smiles": "[C-]#N.[Na+].COC=1C=C(/C=C/C=2OC(=C(N2)C(CC=2OC(=C(N2)CO)C)O)C)C=CC1OC.C(\\C=C\\C=C)N>N(C)(C)C=O.C(C)OCC.[O-2].[O-2].[Mn+4]>COC=1C=C(/C=C/C=2OC(=C(N2)C(CC=2OC(=C(N2)C(=O)NC\\C=C\\C=C)C)O)C)C=CC1OC",
+        "reaction_conditions": {
+            "time": "1200",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "25",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "20",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1002/chem.202501394",
+            "year": "2025",
+            "date_added": "2025-06-30"
+        },
+        "c1_synthon_details": [
+            {
+                "name": "sodium cyanide",
+                "smiles": "[C-]#N.[Na+]",
+                "inchiKey": "MNWBNISUBARLIT-UHFFFAOYSA-N",
+                "ratio": "10.0",
+                "role": "c1 synthon",
+                "notes": null
+            }
+        ],
+        "c1 synthon": "sodium cyanide",
+        "reactant_details": [
+            {
+                "name": "(E)-1-(2-(3,4-Dimethoxystyryl)-5-methyloxazol-4-yl)-2-(4-(hydroxymethyl)-5-methyloxazol-2-yl)ethanol",
+                "smiles": "COC=1C=C(/C=C/C=2OC(=C(N2)C(CC=2OC(=C(N2)CO)C)O)C)C=CC1OC",
+                "inchiKey": "DNMYGXJGHDNZOO-SOFGYWHQSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            },
+            {
+                "name": "(E)-Penta-2,4-dien-1-amine",
+                "smiles": "C(\\C=C\\C=C)N",
+                "inchiKey": "HSFHMJJDUVEWRQ-ONEGZZNKSA-N",
+                "ratio": "3.2",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "(E)-1-(2-(3,4-Dimethoxystyryl)-5-methyloxazol-4-yl)-2-(4-(hydroxymethyl)-5-methyloxazol-2-yl)ethanol",
+        "solvent_details": [
+            {
+                "name": "dimethylformamide",
+                "smiles": "N(C)(C)C=O",
+                "inchiKey": "ZMXDDKWLCZADIW-UHFFFAOYSA-N",
+                "ratio": "346",
+                "role": "solvent",
+                "notes": null
+            },
+            {
+                "name": "diethyl ether",
+                "smiles": "C(C)OCC",
+                "inchiKey": "RTZKZFJDLAIYFH-UHFFFAOYSA-N",
+                "ratio": null,
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "dimethylformamide",
+        "oxidizing_agent_details": [
+            {
+                "name": "manganese dioxide",
+                "smiles": "[O-2].[O-2].[Mn+4]",
+                "inchiKey": "GOPYZMJAIPBUGX-UHFFFAOYSA-N",
+                "ratio": "69.3",
+                "role": "oxidizing agent",
+                "notes": null
+            }
+        ],
+        "oxidizing agent": "manganese dioxide",
+        "product_details": [
+            {
+                "name": "2-(2-(2-((E)-3,4-Dimethoxystyryl)-5-methyloxazol-4-yl)-2-hydroxyethyl)-5-methyl-N-((E)-penta-2,4-dien-1-yl)oxazole-4-carboxamide",
+                "smiles": "COC=1C=C(/C=C/C=2OC(=C(N2)C(CC=2OC(=C(N2)C(=O)NC\\C=C\\C=C)C)O)C)C=CC1OC",
+                "inchiKey": "OYPVTQREZMTHHI-DCXZXJRMSA-N",
+                "ratio": "0.2",
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "2-(2-(2-((E)-3,4-Dimethoxystyryl)-5-methyloxazol-4-yl)-2-hydroxyethyl)-5-methyl-N-((E)-penta-2,4-dien-1-yl)oxazole-4-carboxamide"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/27eebc15a1fb09a4f8b25346090e4c1a",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/27eebc15a1fb09a4f8b25346090e4c1a",
+        "smiles": "[C-]#N.[Na+].COC=1C=C(/C=C/C=2OC(=C(N2)C(CC=2OC(=C(N2)CO)C)O)C)C=CC1OC>CO[H].C(C)(=O)O.[O-2].[O-2].[Mn+4]>COC(=O)C=1N=C(OC1C)CC(O)C=1N=C(OC1C)\\C=C\\C1=CC(=C(C=C1)OC)OC",
+        "reaction_conditions": {
+            "time": "2880",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "25",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "49",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1002/chem.202501394",
+            "year": "2025",
+            "date_added": "2025-06-30"
+        },
+        "c1_synthon_details": [
+            {
+                "name": "sodium cyanide",
+                "smiles": "[C-]#N.[Na+]",
+                "inchiKey": "MNWBNISUBARLIT-UHFFFAOYSA-N",
+                "ratio": "3.9",
+                "role": "c1 synthon",
+                "notes": null
+            }
+        ],
+        "c1 synthon": "sodium cyanide",
+        "reactant_details": [
+            {
+                "name": "(E)-1-(2-(3,4-Dimethoxystyryl)-5-methyloxazol-4-yl)-2-(4-(hydroxymethyl)-5-methyloxazol-2-yl)ethanol",
+                "smiles": "COC=1C=C(/C=C/C=2OC(=C(N2)C(CC=2OC(=C(N2)CO)C)O)C)C=CC1OC",
+                "inchiKey": "DNMYGXJGHDNZOO-SOFGYWHQSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "(E)-1-(2-(3,4-Dimethoxystyryl)-5-methyloxazol-4-yl)-2-(4-(hydroxymethyl)-5-methyloxazol-2-yl)ethanol",
+        "solvent_details": [
+            {
+                "name": "methanol",
+                "smiles": "CO[H]",
+                "inchiKey": "OKKJLVBELUTLKV-UHFFFAOYSA-N",
+                "ratio": "137",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "methanol",
+        "acid_details": [
+            {
+                "name": "acetic acid",
+                "smiles": "C(C)(=O)O",
+                "inchiKey": "QTBSBXVTEAMEQO-UHFFFAOYSA-N",
+                "ratio": "3.1",
+                "role": "acid",
+                "notes": null
+            }
+        ],
+        "acid": "acetic acid",
+        "oxidizing_agent_details": [
+            {
+                "name": "manganese dioxide",
+                "smiles": "[O-2].[O-2].[Mn+4]",
+                "inchiKey": "GOPYZMJAIPBUGX-UHFFFAOYSA-N",
+                "ratio": "27.8",
+                "role": "oxidizing agent",
+                "notes": null
+            }
+        ],
+        "oxidizing agent": "manganese dioxide",
+        "product_details": [
+            {
+                "name": "(E)-methyl-2-(2-(2-(3,4-dimethoxystyryl)-5-methyloxazol-4-yl)-2-hydroxyethyl)-5-methyloxazole-4-carboxylate",
+                "smiles": "COC(=O)C=1N=C(OC1C)CC(O)C=1N=C(OC1C)\\C=C\\C1=CC(=C(C=C1)OC)OC",
+                "inchiKey": "PKABMAMIFQIVFH-VQHVLOKHSA-N",
+                "ratio": "0.5",
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "(E)-methyl-2-(2-(2-(3,4-dimethoxystyryl)-5-methyloxazol-4-yl)-2-hydroxyethyl)-5-methyloxazole-4-carboxylate"
+    },
+    {
+        "sequence_origin": "https://kmt.vander-lingen.nl/data/reaction/profile/24e0692e71246ed3ce6f95742f93fd2e",
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/24e0692e71246ed3ce6f95742f93fd2e",
+        "smiles": "COC(=O)C=1N=C(OC1C)CC(O)C=1N=C(OC1C)\\C=C\\C1=CC(=C(C=C1)OC)OC>CS(=O)C.I(=O)(=O)C1=C(C(=O)O)C=CC=C1>COC(=O)C=1N=C(OC1C)CC(=O)C=1N=C(OC1C)\\C=C\\C1=CC(=C(C=C1)OC)OC",
+        "reaction_conditions": {
+            "time": "270",
+            "time_unit": "minute",
+            "temperature": "",
+            "temperature_unit": "degree Celsius",
+            "temperature_start": "",
+            "temperature_end": "25",
+            "reflux": ""
+        },
+        "yield": {
+            "amount": "47",
+            "unit": "%"
+        },
+        "source": {
+            "literature": "[gpt-4o-mini]",
+            "DOI": "10.1002/chem.202501394",
+            "year": "2025",
+            "date_added": "2025-06-30"
+        },
+        "reactant_details": [
+            {
+                "name": "(E)-methyl-2-(2-(2-(3,4-dimethoxystyryl)-5-methyloxazol-4-yl)-2-hydroxyethyl)-5-methyloxazole-4-carboxylate",
+                "smiles": "COC(=O)C=1N=C(OC1C)CC(O)C=1N=C(OC1C)\\C=C\\C1=CC(=C(C=C1)OC)OC",
+                "inchiKey": "PKABMAMIFQIVFH-VQHVLOKHSA-N",
+                "ratio": "1.0",
+                "role": "reactant",
+                "notes": null
+            }
+        ],
+        "reactant": "(E)-methyl-2-(2-(2-(3,4-dimethoxystyryl)-5-methyloxazol-4-yl)-2-hydroxyethyl)-5-methyloxazole-4-carboxylate",
+        "solvent_details": [
+            {
+                "name": "dimethyl sulfoxide",
+                "smiles": "CS(=O)C",
+                "inchiKey": "IAZDPXIOMUYVGZ-UHFFFAOYSA-N",
+                "ratio": "793",
+                "role": "solvent",
+                "notes": null
+            }
+        ],
+        "solvent": "dimethyl sulfoxide",
+        "oxidizing_agent_details": [
+            {
+                "name": "2-Iodoxybenzoic acid",
+                "smiles": "I(=O)(=O)C1=C(C(=O)O)C=CC=C1",
+                "inchiKey": "FIYYMXYOBLWYQO-UHFFFAOYSA-N",
+                "ratio": "3.0",
+                "role": "oxidizing agent",
+                "notes": null
+            }
+        ],
+        "oxidizing agent": "2-Iodoxybenzoic acid",
+        "product_details": [
+            {
+                "name": "(E)-methyl-2-(2-(2-(3,4-dimethoxystyryl)-5-methyloxazol-4-yl)-2-oxoethyl)-5-methyloxazole-4-carboxylate",
+                "smiles": "COC(=O)C=1N=C(OC1C)CC(=O)C=1N=C(OC1C)\\C=C\\C1=CC(=C(C=C1)OC)OC",
+                "inchiKey": "XBGAUMNPMUAYJI-VQHVLOKHSA-N",
+                "ratio": "0.5",
+                "role": "product",
+                "notes": null
+            }
+        ],
+        "product": "(E)-methyl-2-(2-(2-(3,4-dimethoxystyryl)-5-methyloxazol-4-yl)-2-oxoethyl)-5-methyloxazole-4-carboxylate"
+    }
+]
